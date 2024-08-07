@@ -18,9 +18,9 @@
         <main>
 
             <section>
-                <div class="mt-2 containerLegales text-center">
-                    <div class="lineTitleInicio text-center mb-5"></div>
-                    <h3 class="mt-2 titleSuscription">LEGALES</h3>
+                <div class="containerLegales text-center">
+                    <div class="lineTitleInicio text-center"></div>
+                    <h3 class="titleSuscription">LEGALES</h3>
                     <div class="lineTitle text-center"></div>
                     <div class="containerItems">
                         <a href="aviso.php">
@@ -31,7 +31,7 @@
                             </div>
                         </a>
                     
-                        <a href="">
+                        <a href="terminos.php">
                             <div class="item">
                                 <img src="./images/legal/Hexágono.svg" class="hexagono">
                                 <span class="textItem">TÉRMINOS Y CONDICIONES</span>
@@ -39,7 +39,7 @@
                             </div>
                         </a>
                     
-                        <a href="">
+                        <a href="etica.php">
                             <div class="item">
                                 <img src="./images/legal/Hexágono.svg" class="hexagono">
                                 <span class="textItem">CÓDIGO<br>DE ÉTICA</span>
@@ -47,7 +47,7 @@
                             </div>
                         </a>
                     
-                        <a href="">
+                        <a href="docs/derechosArco.pdf" target="_blank">
                             <div class="item">
                                 <img src="./images/legal/Hexágono.svg" class="hexagono">
                                 <span class="textItem">DERECHOS<br>A.R.C.O.</span>
@@ -56,7 +56,7 @@
                         </a>
                         
                     </div>
-                    <div class="lineTitle2 text-center mb-5"></div>
+                    <div class="lineTitle2 text-center"></div>
                 </div>
             </section>
 

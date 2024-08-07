@@ -1069,6 +1069,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 50px;
 }
 .containerLegales .lineTitleInicio {
   height: 3px;
@@ -1126,8 +1127,33 @@ header {
   width: 80vw !important;
   background-color: var(--acilColor);
   border: 1px solid var(--acilColor) !important;
+  margin-bottom: 50px;
 }
 
+@media (max-width: 1050px) {
+  .containerItems {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .containerLegales {
+    margin-top: -50px;
+    height: 1450px;
+  }
+  .containerLegales .lineTitleInicio {
+    width: 90% !important;
+  }
+  .containerLegales .titleSuscription {
+    font-size: 2.25em;
+  }
+  .containerLegales .containerItems {
+    height: 1000px;
+  }
+  .containerLegales .containerItems a .item .textItem {
+    font-size: 1.5em;
+  }
+}
 /*************************** LEGAL *******************************/
 /*************************** AVISO DE PRIVACIDAD *******************************/
 .containerAviso {
@@ -1140,9 +1166,9 @@ header {
   height: 1px;
   width: 100% !important;
 }
-.containerAviso .titleSuscription {
-  font-family: "MontserratExtraBold" !important;
-  color: var(--acilColor);
+.containerAviso img {
+  height: 150px !important;
+  margin-bottom: 10px;
 }
 .containerAviso .lineTitle {
   height: 1px;
@@ -1159,7 +1185,7 @@ header {
   display: flex;
   justify-content: start;
   align-items: start;
-  font-size: 0.85em;
+  font-size: 0.8em;
   font-family: "MontserratRegular";
 }
 .containerAviso .lineTitle2 {
@@ -1169,4 +1195,126 @@ header {
   border: 1px solid var(--acilColor) !important;
 }
 
-/*************************** AVISO DE PRIVACIDAD *******************************//*# sourceMappingURL=styleNew.css.map */
+@media (max-width: 480px) {
+  .containerAviso {
+    position: relative;
+    width: 100% !important;
+    margin-top: -20px !important;
+  }
+  .containerAviso .lineTitleInicio {
+    height: 1px;
+    width: 100% !important;
+  }
+  .containerAviso img {
+    height: 100px !important;
+    margin-bottom: 10px;
+  }
+  .containerAviso .lineTitle {
+    height: 1px;
+    width: 80vw !important;
+    border: 1px solid var(--acilColor) !important;
+  }
+  .containerAviso .avisoText {
+    position: relative;
+    width: 90%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .containerAviso .avisoText span {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 0.8em;
+    font-family: "MontserratRegular";
+  }
+  .containerAviso .lineTitle2 {
+    height: 8px;
+    width: 80vw !important;
+    background-color: var(--acilColor);
+    border: 1px solid var(--acilColor) !important;
+  }
+}
+/*************************** AVISO DE PRIVACIDAD *******************************/
+/*************************** TERMINOS Y CONDICIONES *******************************/
+.containerTerminos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.containerTerminos .lineTitleInicio {
+  height: 1px;
+  width: 100% !important;
+}
+.containerTerminos img {
+  height: 150px !important;
+  margin-bottom: 10px;
+}
+.containerTerminos .lineTitle {
+  height: 1px;
+  width: 80vw !important;
+  border: 1px solid var(--acilColor) !important;
+}
+.containerTerminos .avisoText {
+  width: 70%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.containerTerminos .avisoText span {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  font-size: 0.8em;
+  font-family: "MontserratRegular";
+}
+.containerTerminos .lineTitle2 {
+  height: 8px;
+  width: 80vw !important;
+  background-color: var(--acilColor);
+  border: 1px solid var(--acilColor) !important;
+}
+
+/*************************** TERMINOS Y CONDICIONES *******************************/
+/*************************** CODIGO DE ETICA *******************************/
+.containerEtica {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.containerEtica .lineTitleInicio {
+  height: 1px;
+  width: 100% !important;
+}
+.containerEtica img {
+  height: 150px !important;
+  margin-bottom: 10px;
+}
+.containerEtica .lineTitle {
+  height: 1px;
+  width: 80vw !important;
+  border: 1px solid var(--acilColor) !important;
+}
+.containerEtica .enMantenimiento {
+  margin-top: 10px;
+  margin-left: 75px;
+  height: 325px !important;
+}
+.containerEtica .mantenimientoText {
+  margin-bottom: 10px;
+}
+.containerEtica .mantenimientoText span {
+  font-family: "MontserratExtraBold" !important;
+  font-size: 2em !important;
+  color: var(--acilColor) !important;
+}
+.containerEtica .lineTitle2 {
+  height: 8px;
+  width: 80vw !important;
+  background-color: var(--acilColor);
+  border: 1px solid var(--acilColor) !important;
+}
+
+/*************************** CODIGO DE ETICA *******************************//*# sourceMappingURL=styleNew.css.map */
