@@ -5,7 +5,7 @@
         <?php require "head.php"; ?>
         <title>ACIL México</title>
         <link rel="canonical" href="https://acil.mx" />
-        <meta property="og:title" content="ACIL México: Legales"/>
+        <meta property="og:title" content="ACIL México: Aviso de Privacidad"/>
         <meta property="og:url" content="https://acil.mx" />
         <meta property="og:image" content="https://acil.mx/images/og/og-image.png" />
     </head>
@@ -22,7 +22,7 @@
                     <div class="lineTitleInicio text-center mb-5"></div>
                     <img src="./images/avisoPrivacidad.svg">
                     <div class="lineTitle text-center"></div>
-                    <div class="avisoText text-center mt-4 mb-4">
+                    <div class="avisoText mt-4 mb-4">
                          <span>
                          ATENCIÓN:<br><br>
                          Antes de proporcionar cualquier tipo de información o dato personal, lea de forma detenida el presente documento.<br>

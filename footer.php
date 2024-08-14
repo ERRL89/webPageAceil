@@ -6,11 +6,10 @@
         <div class="containerFooter">
 
             <div class="column1">
-                <img src="./images/Logo footer.svg" alt="Logo Acil México Seguridad Simple">
+                <a href="./index.php"><img src="./images/Logo footer.svg" alt="Logo Acil México Seguridad Simple"></a>
                 <div class="containerTextColumn1">
                     <p>ACIL México empresa líder en seguridad electrónica que ofrece e integra suscripciones a sistemas de seguridad. Con cámaras, alarmas y monitoreo de alta calidad para hogares, negocios y grandes corporativos, aseguran la tranquilidad y protección de sus clientes en todo momento.</p>
                 </div>
-                
             </div>
 
             <div class="column2">
@@ -21,7 +20,6 @@
                         <a href="./legal.php"><span>Legal</span></a><br>
                         <a href=""><span>Aplicaciones</span></a>
                     </div>
-                    
                 </div><br>
                 <div>
                     <p>DATOS DE CONTACTO</p>
@@ -30,14 +28,13 @@
                         <a href="tel:+528008082245"><span>800 808 2245</span></a>
                     </div>
                 </div>
-                
             </div>
             
             <div class="column3">
                 <div>
                     <p>COMUNÍCATE</p>
                     <div class="textColumn3">
-                        <a href="./bolsatrabajo.php"><span>Bolsa de trabajo</span></a><br>
+                        <a href="./bolsaTrabajo.php"><span>Bolsa de trabajo</span></a><br>
                         <a href="./contactanos.php"><span>Contáctanos</span></a><br><br><br>
                         <p>HORARIO DE ATENCIÓN</p>
                         <div class="textColumn3">
@@ -58,7 +55,6 @@
                         <img src="./images/App.svg">
                     </div>
                 </div>
-                
                 
                 <div class="containerRedes">
                     <a href="https://www.facebook.com/acil.mexico.seguridad" target="_blank"><img src="./images/redes/Caralibro.svg" alt="Facebook Acil México"></a>

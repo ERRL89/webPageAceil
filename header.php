@@ -17,10 +17,10 @@
           <a class="nav-link itemList" href="#">Soluciones</a>
         </li>
         <li class="nav-item mx-3 marginItemList">
-          <a class="nav-link itemList" href="#">Aplicaciones</a>
+          <a class="nav-link itemList" href="./aplicaciones.php">Aplicaciones</a>
         </li>
         <li class="nav-item mx-3 marginItemList">
-          <a class="nav-link itemList" href="https://acil.mx/contactanos.php">Contacto</a>
+          <a class="nav-link itemList" href="./contactanos.php">Contacto</a>
         </li>
       </ul>
       <a class="btnPortalContainer" role="search" href="https://acil.mx/intranet" target="_blank">

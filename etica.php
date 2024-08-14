@@ -5,7 +5,7 @@
         <?php require "head.php"; ?>
         <title>ACIL México</title>
         <link rel="canonical" href="https://acil.mx" />
-        <meta property="og:title" content="ACIL México: Legales"/>
+        <meta property="og:title" content="ACIL México: Codigo de Ética"/>
         <meta property="og:url" content="https://acil.mx" />
         <meta property="og:image" content="https://acil.mx/images/og/og-image.png" />
     </head>
@@ -18,15 +18,18 @@
         <main>
 
             <section>
-                <div class="mt-2 containerEtica">
+                <div class="containerEtica">
                     <div class="lineTitleInicio text-center mb-5"></div>
                     <img src="./images/logoEtica.svg">
                     <div class="lineTitle text-center"></div>
-                    <img class="enMantenimiento" src="./images/enMantenimiento.png">
+                    <div class="containerImg container-fluid text-center">
+                         <img class="enMantenimiento" src="./images/enMantenimiento.png" class="img-fluid">
+                    </div>
+                   
                     <div class="mantenimientoText">
                         <span>EN MANTENIMIENTO</span>
                     </div>
-                    <div class="lineTitle2 text-center mb-5"></div>
+                    <div class="lineTitle2 text-center"></div>
                 </div>
             </section>
 
