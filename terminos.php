@@ -5,7 +5,7 @@
         <?php require "head.php"; ?>
         <title>ACIL México</title>
         <link rel="canonical" href="https://acil.mx" />
-        <meta property="og:title" content="ACIL México: Legales"/>
+        <meta property="og:title" content="ACIL México: Terminos y Condiciones"/>
         <meta property="og:url" content="https://acil.mx" />
         <meta property="og:image" content="https://acil.mx/images/og/og-image.png" />
     </head>
@@ -18,7 +18,7 @@
         <main>
 
             <section>
-                <div class="mt-2 containerAviso">
+                <div class="mt-2 containerTerminos">
                     <div class="lineTitleInicio text-center mb-5"></div>
                     <img src="./images/logoTerminos.svg">
                     <div class="lineTitle text-center"></div>

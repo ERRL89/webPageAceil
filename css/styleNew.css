@@ -1167,8 +1167,9 @@ header {
   width: 100% !important;
 }
 .containerAviso img {
-  height: 150px !important;
+  height: 125px !important;
   margin-bottom: 10px;
+  margin-top: -30px;
 }
 .containerAviso .lineTitle {
   height: 1px;
@@ -1199,14 +1200,15 @@ header {
   .containerAviso {
     position: relative;
     width: 100% !important;
-    margin-top: -20px !important;
+    margin-top: 0px !important;
+    margin-bottom: 125px !important;
   }
   .containerAviso .lineTitleInicio {
     height: 1px;
     width: 100% !important;
   }
   .containerAviso img {
-    height: 100px !important;
+    height: 85px !important;
     margin-bottom: 10px;
   }
   .containerAviso .lineTitle {
@@ -1248,8 +1250,9 @@ header {
   width: 100% !important;
 }
 .containerTerminos img {
-  height: 150px !important;
+  height: 125px !important;
   margin-bottom: 10px;
+  margin-top: -30px;
 }
 .containerTerminos .lineTitle {
   height: 1px;
@@ -1259,13 +1262,9 @@ header {
 .containerTerminos .avisoText {
   width: 70%;
   display: flex;
-  justify-content: start;
-  align-items: start;
 }
 .containerTerminos .avisoText span {
   display: flex;
-  justify-content: start;
-  align-items: start;
   font-size: 0.8em;
   font-family: "MontserratRegular";
 }
@@ -1276,34 +1275,78 @@ header {
   border: 1px solid var(--acilColor) !important;
 }
 
+@media (max-width: 480px) {
+  .containerTerminos {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative;
+    width: 100% !important;
+    margin-top: 0px !important;
+    margin-bottom: 125px !important;
+  }
+  .containerTerminos img {
+    height: 85px !important;
+    margin-bottom: 10px;
+  }
+  .containerTerminos .avisoText {
+    position: relative;
+    width: 90%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .containerTerminos .avisoText span {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 0.8em;
+    font-family: "MontserratRegular";
+  }
+  .containerTerminos .lineTitle2 {
+    height: 8px;
+    width: 80vw !important;
+    background-color: var(--acilColor);
+    border: 1px solid var(--acilColor) !important;
+  }
+}
 /*************************** TERMINOS Y CONDICIONES *******************************/
 /*************************** CODIGO DE ETICA *******************************/
 .containerEtica {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: -25px;
+  margin-bottom: 50px;
 }
 .containerEtica .lineTitleInicio {
   height: 1px;
   width: 100% !important;
 }
 .containerEtica img {
-  height: 150px !important;
-  margin-bottom: 10px;
+  height: 125px !important;
+  margin-bottom: 20px;
 }
 .containerEtica .lineTitle {
   height: 1px;
   width: 80vw !important;
   border: 1px solid var(--acilColor) !important;
 }
-.containerEtica .enMantenimiento {
+.containerEtica .containerImg {
+  position: relative;
+  height: 400px;
+  width: 90%;
+}
+.containerEtica .containerImg .enMantenimiento {
   margin-top: 10px;
   margin-left: 75px;
-  height: 325px !important;
+  height: 95% !important;
 }
 .containerEtica .mantenimientoText {
-  margin-bottom: 10px;
+  position: relative;
+  height: 50px !important;
 }
 .containerEtica .mantenimientoText span {
   font-family: "MontserratExtraBold" !important;
@@ -1317,4 +1360,710 @@ header {
   border: 1px solid var(--acilColor) !important;
 }
 
-/*************************** CODIGO DE ETICA *******************************//*# sourceMappingURL=styleNew.css.map */
+@media (max-width: 480px) {
+  .containerEtica {
+    margin-bottom: 125px !important;
+  }
+  .containerEtica .lineTitleInicio {
+    height: 1px;
+    width: 100% !important;
+  }
+  .containerEtica img {
+    height: 85px !important;
+    margin-bottom: 10px;
+  }
+  .containerEtica .lineTitle {
+    height: 1px;
+    width: 80vw !important;
+    border: 1px solid var(--acilColor) !important;
+  }
+  .containerEtica .containerImg {
+    position: relative;
+    height: 150px;
+    width: 90%;
+    margin-top: 35px;
+  }
+  .containerEtica .containerImg .enMantenimiento {
+    margin-left: 30px;
+    height: auto !important;
+    width: 90%;
+  }
+  .containerEtica .mantenimientoText {
+    margin-top: 20px;
+  }
+  .containerEtica .mantenimientoText span {
+    font-family: "MontserratExtraBold" !important;
+    font-size: 1.5em !important;
+    color: var(--acilColor) !important;
+  }
+  .containerEtica .lineTitle2 {
+    height: 8px;
+    width: 80vw !important;
+    background-color: var(--acilColor);
+    border: 1px solid var(--acilColor) !important;
+    margin-top: -10px !important;
+  }
+}
+/*************************** CODIGO DE ETICA *******************************/
+/*************************** BOLSA DE TRABAJO *******************************/
+section {
+  position: relative;
+}
+section .containerBolsaTrabajo {
+  position: relative;
+  background-image: url(../images/fondoBolsaTrabajo.jpg);
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+section .formBolsaTrabajo {
+  position: absolute;
+  height: 680px;
+  width: 35vw;
+  background-color: rgb(242, 242, 242);
+  border-radius: 25px;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+  top: 10px;
+  right: 175px;
+}
+section .formBolsaTrabajo form .title {
+  height: 90px;
+  width: 100%;
+  background-color: var(--acilColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .formBolsaTrabajo form .title span {
+  font-size: 0.9em;
+}
+section .formBolsaTrabajo form .containerForm {
+  padding: 10px 40px;
+}
+section .formBolsaTrabajo form .containerForm div {
+  margin-top: 5px;
+}
+section .formBolsaTrabajo form .containerForm div label {
+  font-family: "MontserratBold" !important;
+  font-size: 0.75em;
+}
+section .formBolsaTrabajo form .containerForm div .inputCamp {
+  margin-top: 5px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  outline: 1px solid white;
+  padding: 8px;
+  transition: 0.3s ease-in-out;
+}
+section .formBolsaTrabajo form .containerForm div .inputCamp:focus {
+  transition: 0.3s ease-in-out;
+  outline: 1px solid rgba(226, 92, 25, 0.431372549);
+}
+section .formBolsaTrabajo form .containerForm div select {
+  margin-top: 5px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  outline: 1px solid white;
+  padding: 0px 8px;
+  transition: 0.3s ease-in-out;
+}
+section .formBolsaTrabajo form .containerForm div select:focus {
+  transition: 0.3s ease-in-out;
+  outline: 1px solid rgba(226, 92, 25, 0.431372549);
+}
+section .formBolsaTrabajo form .containerForm div .inputFile {
+  display: none;
+}
+section .formBolsaTrabajo form .containerForm div .subirContainer {
+  width: 100%;
+  transition: 0.3s ease-in-out;
+}
+section .formBolsaTrabajo form .containerForm div .subirContainer img {
+  height: 65px;
+}
+section .formBolsaTrabajo form .containerForm div .subirContainer:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease-in-out;
+}
+section .formBolsaTrabajo form .containerForm div .terminosContainer {
+  margin-top: 15px;
+  display: flex !important;
+  justify-content: start !important;
+  align-items: center !important;
+  gap: 20px;
+}
+section .formBolsaTrabajo form .containerForm div .terminosContainer span {
+  font-family: "MontserratBold" !important;
+  font-size: 0.5em;
+}
+section .formBolsaTrabajo form .containerForm div .btnEnviarContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+section .formBolsaTrabajo form .containerForm div .btnEnviarContainer img {
+  width: 300px;
+}
+section .formBolsaTrabajo form .containerForm div .btnEnviarContainer:hover {
+  filter: drop-shadow(3px 3px 7px rgba(255, 166, 0, 0.75));
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 480px) {
+  section {
+    position: relative;
+  }
+  section .containerBolsaTrabajo {
+    background-position-x: right;
+    height: 880px;
+  }
+  section .formBolsaTrabajo {
+    height: 700px;
+    width: 90vw;
+    top: 40px;
+    right: 20px;
+  }
+  section .formBolsaTrabajo form .title {
+    height: 90px;
+  }
+  section .formBolsaTrabajo form .title span {
+    font-size: 1.3em;
+  }
+  section .formBolsaTrabajo form .containerForm {
+    padding: 10px 40px;
+  }
+  section .formBolsaTrabajo form .containerForm div {
+    margin-top: 5px;
+  }
+  section .formBolsaTrabajo form .containerForm div label {
+    font-family: "MontserratBold" !important;
+    font-size: 0.75em;
+  }
+  section .formBolsaTrabajo form .containerForm div .inputCamp {
+    margin-top: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    outline: 1px solid white;
+    padding: 8px;
+    transition: 0.3s ease-in-out;
+  }
+  section .formBolsaTrabajo form .containerForm div .inputCamp:focus {
+    transition: 0.3s ease-in-out;
+    outline: 1px solid rgba(226, 92, 25, 0.431372549);
+  }
+  section .formBolsaTrabajo form .containerForm div select {
+    margin-top: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    outline: 1px solid white;
+    padding: 0px 8px;
+    transition: 0.3s ease-in-out;
+  }
+  section .formBolsaTrabajo form .containerForm div select:focus {
+    transition: 0.3s ease-in-out;
+    outline: 1px solid rgba(226, 92, 25, 0.431372549);
+  }
+  section .formBolsaTrabajo form .containerForm div .inputFile {
+    display: none;
+  }
+  section .formBolsaTrabajo form .containerForm div .subirContainer {
+    width: 100%;
+  }
+  section .formBolsaTrabajo form .containerForm div .subirContainer img {
+    height: 65px;
+  }
+  section .formBolsaTrabajo form .containerForm div .terminosContainer {
+    margin-top: 15px;
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    gap: 20px;
+  }
+  section .formBolsaTrabajo form .containerForm div .terminosContainer span {
+    font-family: "MontserratBold" !important;
+    font-size: 0.5em;
+  }
+  section .formBolsaTrabajo form .containerForm div .btnEnviarContainer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .formBolsaTrabajo form .containerForm div .btnEnviarContainer img {
+    width: 300px;
+  }
+}
+/*************************** BOLSA DE TRABAJO *******************************/
+/*************************** CONTÁCTANOS *******************************/
+section {
+  position: relative;
+}
+section .containerContactanos {
+  position: relative;
+  background-image: url(../images/fondoContactanos.jpg);
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+section .formContactanos {
+  position: absolute;
+  height: 680px;
+  width: 35vw;
+  background-color: rgb(242, 242, 242);
+  border-radius: 25px;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+  top: 10px;
+  right: 175px;
+}
+section .formContactanos form .title {
+  height: 110px;
+  width: 100%;
+  background-color: var(--acilColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .formContactanos form .title span {
+  font-size: 0.8em;
+}
+section .formContactanos form .containerForm {
+  padding: 10px 40px;
+}
+section .formContactanos form .containerForm div {
+  margin-top: 10px;
+}
+section .formContactanos form .containerForm div label {
+  font-family: "MontserratBold" !important;
+  font-size: 0.75em;
+}
+section .formContactanos form .containerForm div .inputCamp {
+  margin-top: 5px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  outline: 1px solid white;
+  padding: 8px;
+  transition: 0.3s ease-in-out;
+}
+section .formContactanos form .containerForm div .inputCamp:focus {
+  transition: 0.3s ease-in-out;
+  outline: 1px solid rgba(226, 92, 25, 0.431372549);
+}
+section .formContactanos form .containerForm div .inputFile {
+  display: none;
+}
+section .formContactanos form .containerForm div .subirContainer {
+  width: 100%;
+  transition: 0.3s ease-in-out;
+}
+section .formContactanos form .containerForm div .subirContainer img {
+  height: 65px;
+}
+section .formContactanos form .containerForm div .subirContainer:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease-in-out;
+}
+section .formContactanos form .containerForm div .pymeResidencial {
+  margin-top: 40px;
+  display: flex !important;
+  justify-content: start !important;
+  align-items: center !important;
+  gap: 20px;
+}
+section .formContactanos form .containerForm div .pymeResidencial span {
+  font-family: "MontserratBold" !important;
+  font-size: 0.5em;
+}
+section .formContactanos form .containerForm div .terminosContainer {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  display: flex !important;
+  justify-content: start !important;
+  align-items: center !important;
+  gap: 20px;
+}
+section .formContactanos form .containerForm div .terminosContainer span {
+  font-family: "MontserratBold" !important;
+  font-size: 0.5em;
+}
+section .formContactanos form .containerForm div .btnEnviarContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+section .formContactanos form .containerForm div .btnEnviarContainer img {
+  width: 300px;
+}
+section .formContactanos form .containerForm div .btnEnviarContainer:hover {
+  filter: drop-shadow(3px 3px 7px rgba(255, 166, 0, 0.75));
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 480px) {
+  section {
+    position: relative;
+  }
+  section .containerContactanos {
+    background-position-x: right;
+    height: 780px;
+  }
+  section .formContactanos {
+    height: 600px;
+    width: 90vw;
+    top: 40px;
+    right: 20px;
+  }
+  section .formContactanos form .title {
+    height: 110px;
+  }
+  section .formContactanos form .title span {
+    font-size: 1.2em;
+  }
+  section .formContactanos form .containerForm {
+    padding: 10px 40px;
+  }
+  section .formContactanos form .containerForm div {
+    margin-top: 5px;
+  }
+  section .formContactanos form .containerForm div label {
+    font-family: "MontserratBold" !important;
+    font-size: 0.75em;
+  }
+  section .formContactanos form .containerForm div .inputCamp {
+    margin-top: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    outline: 1px solid white;
+    padding: 8px;
+    transition: 0.3s ease-in-out;
+  }
+  section .formContactanos form .containerForm div .inputCamp:focus {
+    transition: 0.3s ease-in-out;
+    outline: 1px solid rgba(226, 92, 25, 0.431372549);
+  }
+  section .formContactanos form .containerForm div .inputFile {
+    display: none;
+  }
+  section .formContactanos form .containerForm div .subirContainer {
+    width: 100%;
+  }
+  section .formContactanos form .containerForm div .subirContainer img {
+    height: 65px;
+  }
+  section .formContactanos form .containerForm div .pymeResidencial {
+    margin-top: 20px;
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    gap: 20px;
+  }
+  section .formContactanos form .containerForm div .pymeResidencial span {
+    font-family: "MontserratBold" !important;
+    font-size: 0.5em;
+  }
+  section .formContactanos form .containerForm div .terminosContainer {
+    margin-top: 15px;
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    gap: 20px;
+  }
+  section .formContactanos form .containerForm div .terminosContainer span {
+    font-family: "MontserratBold" !important;
+    font-size: 0.5em;
+  }
+  section .formContactanos form .containerForm div .btnEnviarContainer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .formContactanos form .containerForm div .btnEnviarContainer img {
+    width: 300px;
+  }
+}
+/*************************** CONTÁCTANOS *******************************/
+/*************************** APLICACIONES *******************************/
+.casosUsoContainer {
+  background-color: rgb(242, 242, 242);
+}
+.casosUsoContainer .startImgContainer {
+  position: relative;
+  height: 400px !important;
+  width: 100%;
+  background-color: rgb(242, 242, 242);
+}
+.casosUsoContainer .startImgContainer img {
+  height: 100%;
+  width: 100%;
+}
+.casosUsoContainer .casosUsoTextContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.casosUsoContainer .casosUsoTextContainer .titleSuscription {
+  font-family: "MontserratExtraBold" !important;
+  color: var(--acilColor);
+}
+.casosUsoContainer .casosUsoTextContainer .lineTitle {
+  height: 1px;
+  width: 80vw !important;
+  border: 1px solid var(--acilColor) !important;
+}
+.casosUsoContainer .casosUsoTextContainer .containerSubtitle {
+  position: relative;
+  width: 55% !important;
+  margin-top: 20px;
+}
+.casosUsoContainer .casosUsoTextContainer .containerSubtitle .subtitle {
+  font-family: "MontserratRegular" !important;
+  font-size: 1.2em !important;
+}
+.casosUsoContainer .barraEspacio2 {
+  margin-top: 25px;
+  height: 10px;
+  background-color: var(--acilColor);
+}
+
+.containerApps .lineTitle {
+  height: 1px;
+  width: 80vw !important;
+  border: 1px solid var(--acilColor) !important;
+  margin-top: 25px;
+}
+.containerApps .appsContainer {
+  position: relative;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  gap: 7px;
+}
+.containerApps .appsContainer .app {
+  position: relative;
+  height: 100%;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+}
+.containerApps .appsContainer .app img {
+  position: absolute;
+  height: 75px;
+  width: 75px;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.15));
+  top: 0;
+}
+.containerApps .appsContainer .app .apps1 {
+  color: var(--acilColor);
+  font-family: "MontserratBold" !important;
+  font-size: 0.5em !important;
+  margin-top: 80px;
+}
+.containerApps .appsContainer .app .apps2 {
+  color: rgb(245, 162, 20);
+  font-family: "MontserratBold" !important;
+  font-size: 0.5em !important;
+  margin-top: 80px;
+}
+.containerApps .appsContainer .app:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease-in-out;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
+}
+.containerApps .barraEspacio3 {
+  margin-top: 40px;
+  height: 20px;
+  background-color: var(--acilColor);
+}
+
+.edificiosContainerMain .edificiosContainer {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.edificiosContainerMain .edificiosContainer .column1 {
+  position: relative;
+  height: 100%;
+  width: 20%;
+  overflow: hidden;
+  background-image: url(../images/aplicaciones/Casos\ de\ uso\ 1.svg);
+  background-size: cover;
+}
+.edificiosContainerMain .edificiosContainer .column1 .flecha {
+  position: absolute;
+  height: 300px;
+  right: 5px;
+  width: 50px;
+}
+.edificiosContainerMain .edificiosContainer .column2 {
+  position: relative;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edificiosContainerMain .edificiosContainer .column2 span {
+  position: absolute;
+  top: 0;
+  font-family: "MontserratExtraBold" !important;
+  color: var(--acilColor);
+  font-size: 1.2em;
+}
+.edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .edificio {
+  position: absolute;
+  bottom: 0;
+  height: 250px;
+}
+.edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .camarasDepa {
+  position: absolute;
+  top: 45px;
+  right: 160px;
+  height: 30px;
+  transition: 0.3s ease-in-out;
+}
+.edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .camarasDepa:hover {
+  scale: 1.5;
+  transition: 0.3s ease-in-out;
+}
+.edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .alarmasDepa {
+  position: absolute;
+  top: 105px;
+  right: 270px;
+  height: 30px;
+  transition: 0.3s ease-in-out;
+}
+.edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .alarmasDepa:hover {
+  scale: 1.5;
+  transition: 0.3s ease-in-out;
+}
+.edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .cerraduraDepa {
+  position: absolute;
+  top: 220px;
+  right: 180px;
+  height: 30px;
+  transition: 0.3s ease-in-out;
+}
+.edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .cerraduraDepa:hover {
+  scale: 1.5;
+  transition: 0.3s ease-in-out;
+}
+.edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .videoporteroDepa {
+  position: absolute;
+  top: 195px;
+  right: 140px;
+  height: 30px;
+  transition: 0.3s ease-in-out;
+}
+.edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .videoporteroDepa:hover {
+  scale: 1.5;
+  transition: 0.3s ease-in-out;
+}
+.edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .camaras2Depa {
+  position: absolute;
+  top: 160px;
+  right: 380px;
+  height: 30px;
+  transition: 0.3s ease-in-out;
+}
+.edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .camaras2Depa:hover {
+  scale: 1.5;
+  transition: 0.3s ease-in-out;
+}
+.edificiosContainerMain .edificiosContainer .column3 {
+  height: 100%;
+  width: 20%;
+}
+.edificiosContainerMain .edificiosContainer .column3 .cardApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.edificiosContainerMain .edificiosContainer .column3 .cardApp .title {
+  color: red;
+  font-size: 1em;
+}
+.edificiosContainerMain .edificiosContainer .column3 .cardApp .equipo {
+  height: 100px;
+}
+.edificiosContainerMain .edificiosContainer .column4 {
+  position: relative;
+  height: 100%;
+  width: 20%;
+  overflow: hidden;
+  background-image: url(../images/aplicaciones/Casos\ de\ uso\ 2.svg);
+  background-size: cover;
+}
+.edificiosContainerMain .edificiosContainer .column4 .flecha {
+  position: absolute;
+  height: 300px;
+  left: 5px;
+  width: 50px;
+}
+.edificiosContainerMain .selectsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 25px;
+  gap: 6px;
+}
+.edificiosContainerMain .selectsContainer .selectHex {
+  -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+          clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  background: rgb(245, 162, 20);
+  width: 14px;
+  height: 16px;
+  rotate: 90deg;
+  transition: 0.3s ease-in-out;
+}
+.edificiosContainerMain .selectsContainer .selectHex:hover {
+  background-color: var(--acilColor);
+  transition: 0.3s ease-in-out;
+}
+.edificiosContainerMain .barraEspacio3 {
+  height: 20px;
+  background-color: var(--acilColor);
+}
+
+/*************************** APLICACIONES *******************************//*# sourceMappingURL=styleNew.css.map */
