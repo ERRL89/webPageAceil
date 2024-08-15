@@ -130,10 +130,16 @@
                         </div>
 
                         <!-- COLUMNA 3 -->
-                        <div class="column3 border">
-                            <div class="cardApp border">
-                                <span class="title">Cámaras de seguridad</span>
-                                <img src="./images/aplicaciones/equipos/Cámara.jpg" class="equipo">
+                        <div class="column3 text-center">
+                            <div class="cardApp">
+                                <span class="title">Cámaras<br>de seguridad</span>
+                                <div class="imgCard">
+                                    <img src="./images/aplicaciones/equipos/Cámara.jpg" class="equipo">
+                                </div>
+                                <div class="description">
+                                    <p>Adquirir una suscripción a sistemas de seguridad con ACIL proporciona beneficios exclusivos como instalación de calidad sin costo extra, actualizaciones constantes y soporte técnico que garantiza la seguridad integrada y avanzada. Con mensualidades accesibles para todos los usuarios.</p>
+                                </div>
+                                
                             </div>
                         </div>
 
@@ -141,11 +147,7 @@
                         <div class="column4">
                             <img class="flecha" src="./images/aplicaciones/Flecha D.svg">
                         </div>
-
                     </div>
-
-                    
-                    
 
                     <div class="selectsContainer">
                         <div class="selectHex"></div>
@@ -160,10 +162,49 @@
                         <div class="selectHex"></div>
                     </div>
                     
-                    <div class="barraEspacio3"></div><br><br>
+                    <div class="barraEspacio3"></div>
                     </div>
                 </div>
             </section>
+
+            <!-- ETIQUETAS -->
+             <section>
+                <div class="etiquetasContainer">
+                    <!-- ETIQUETA1 -->
+                    <div class="etiqueta1">
+                        <img src="./images/aplicaciones/Portafolios.png">
+                        <span class="title1">Portafolio</span>
+                        <div class="etiquetaTextContainer">
+                            <p><strong>Explora el portafolio de servicios de ACIL México y conoce nuestras soluciones innovadoras en seguridad electrónica, diseñadas para tu tranquilidad.</strong></p>
+                        </div>
+                        <img class="etiquetaBtn" src="./images/aplicaciones/Botón.svg">
+                    </div>
+
+                    <!-- ETIQUETA2 -->
+                    <div class="etiqueta2">
+                        <img src="./images/aplicaciones/Soluciones.png">
+                        <span class="title2">Soluciones</span>
+                        <div class="etiquetaTextContainer2">
+                            <p><strong>Explora una gama completa de productos y servicios diseñados para diversas aplicaciones desde seguridad residencial hasta protección empresarial.</strong></p>
+                        </div>
+                        <img class="etiquetaBtn2" src="./images/aplicaciones/Botón.svg">
+                    </div>
+
+                    <!-- ETIQUETA3 -->
+                    <div class="etiqueta3">
+                        <img src="./images/aplicaciones/Socios.png">
+                        <span class="title3">Conviértete en un socio ACIL</span>
+                        <div class="etiquetaTextContainer3">
+                            <p><strong>Si te diéramos la oportunidad de cambiar tu vida y la de tu familia<br>¿La tomarías?</strong></p>
+                        </div>
+                        <img class="etiquetaBtn3" src="./images/aplicaciones/Botón.svg">
+                    </div>
+
+                    <div class="barraEspacio"></div>
+                </div>
+             </section>
+
+
 
         </main>
         
