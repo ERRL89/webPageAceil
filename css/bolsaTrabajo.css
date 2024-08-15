@@ -1,0 +1,201 @@
+/*************************** BOLSA DE TRABAJO *******************************/
+section {
+  position: relative;
+}
+section .containerBolsaTrabajo {
+  position: relative;
+  background-image: url(../images/fondoBolsaTrabajo.jpg);
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+section .formBolsaTrabajo {
+  position: absolute;
+  height: 680px;
+  width: 35vw;
+  background-color: rgb(242, 242, 242);
+  border-radius: 25px;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+  top: 10px;
+  right: 175px;
+}
+section .formBolsaTrabajo form .title {
+  height: 90px;
+  width: 100%;
+  background-color: var(--acilColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .formBolsaTrabajo form .title span {
+  font-size: 0.9em;
+}
+section .formBolsaTrabajo form .containerForm {
+  padding: 10px 40px;
+}
+section .formBolsaTrabajo form .containerForm div {
+  margin-top: 5px;
+}
+section .formBolsaTrabajo form .containerForm div label {
+  font-family: "MontserratBold" !important;
+  font-size: 0.75em;
+}
+section .formBolsaTrabajo form .containerForm div .inputCamp {
+  margin-top: 5px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  outline: 1px solid white;
+  padding: 8px;
+  transition: 0.3s ease-in-out;
+}
+section .formBolsaTrabajo form .containerForm div .inputCamp:focus {
+  transition: 0.3s ease-in-out;
+  outline: 1px solid rgba(226, 92, 25, 0.431372549);
+}
+section .formBolsaTrabajo form .containerForm div select {
+  margin-top: 5px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  outline: 1px solid white;
+  padding: 0px 8px;
+  transition: 0.3s ease-in-out;
+}
+section .formBolsaTrabajo form .containerForm div select:focus {
+  transition: 0.3s ease-in-out;
+  outline: 1px solid rgba(226, 92, 25, 0.431372549);
+}
+section .formBolsaTrabajo form .containerForm div .inputFile {
+  display: none;
+}
+section .formBolsaTrabajo form .containerForm div .subirContainer {
+  width: 100%;
+  transition: 0.3s ease-in-out;
+}
+section .formBolsaTrabajo form .containerForm div .subirContainer img {
+  height: 65px;
+}
+section .formBolsaTrabajo form .containerForm div .subirContainer:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease-in-out;
+}
+section .formBolsaTrabajo form .containerForm div .terminosContainer {
+  margin-top: 15px;
+  display: flex !important;
+  justify-content: start !important;
+  align-items: center !important;
+  gap: 20px;
+}
+section .formBolsaTrabajo form .containerForm div .terminosContainer span {
+  font-family: "MontserratBold" !important;
+  font-size: 0.5em;
+}
+section .formBolsaTrabajo form .containerForm div .btnEnviarContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+section .formBolsaTrabajo form .containerForm div .btnEnviarContainer img {
+  width: 300px;
+}
+section .formBolsaTrabajo form .containerForm div .btnEnviarContainer:hover {
+  filter: drop-shadow(3px 3px 7px rgba(255, 166, 0, 0.75));
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 480px) {
+  section {
+    position: relative;
+  }
+  section .containerBolsaTrabajo {
+    background-position-x: right;
+    height: 880px;
+  }
+  section .formBolsaTrabajo {
+    height: 700px;
+    width: 90vw;
+    top: 40px;
+    right: 20px;
+  }
+  section .formBolsaTrabajo form .title {
+    height: 90px;
+  }
+  section .formBolsaTrabajo form .title span {
+    font-size: 1.3em;
+  }
+  section .formBolsaTrabajo form .containerForm {
+    padding: 10px 40px;
+  }
+  section .formBolsaTrabajo form .containerForm div {
+    margin-top: 5px;
+  }
+  section .formBolsaTrabajo form .containerForm div label {
+    font-family: "MontserratBold" !important;
+    font-size: 0.75em;
+  }
+  section .formBolsaTrabajo form .containerForm div .inputCamp {
+    margin-top: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    outline: 1px solid white;
+    padding: 8px;
+    transition: 0.3s ease-in-out;
+  }
+  section .formBolsaTrabajo form .containerForm div .inputCamp:focus {
+    transition: 0.3s ease-in-out;
+    outline: 1px solid rgba(226, 92, 25, 0.431372549);
+  }
+  section .formBolsaTrabajo form .containerForm div select {
+    margin-top: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    outline: 1px solid white;
+    padding: 0px 8px;
+    transition: 0.3s ease-in-out;
+  }
+  section .formBolsaTrabajo form .containerForm div select:focus {
+    transition: 0.3s ease-in-out;
+    outline: 1px solid rgba(226, 92, 25, 0.431372549);
+  }
+  section .formBolsaTrabajo form .containerForm div .inputFile {
+    display: none;
+  }
+  section .formBolsaTrabajo form .containerForm div .subirContainer {
+    width: 100%;
+  }
+  section .formBolsaTrabajo form .containerForm div .subirContainer img {
+    height: 65px;
+  }
+  section .formBolsaTrabajo form .containerForm div .terminosContainer {
+    margin-top: 15px;
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    gap: 20px;
+  }
+  section .formBolsaTrabajo form .containerForm div .terminosContainer span {
+    font-family: "MontserratBold" !important;
+    font-size: 0.5em;
+  }
+  section .formBolsaTrabajo form .containerForm div .btnEnviarContainer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .formBolsaTrabajo form .containerForm div .btnEnviarContainer img {
+    width: 300px;
+  }
+}
+/*************************** BOLSA DE TRABAJO *******************************//*# sourceMappingURL=bolsaTrabajo.css.map */

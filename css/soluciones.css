@@ -1,0 +1,343 @@
+/*************************** SOLUCIONES *******************************/
+.formFondo {
+  position: relative;
+}
+.formFondo .containerSoluciones {
+  position: relative;
+  background-image: url(../images/soluciones/fondo.jpg);
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+.formFondo .formSoluciones {
+  position: absolute;
+  height: 680px;
+  width: 35vw;
+  background-color: rgb(242, 242, 242);
+  border-radius: 25px;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+  top: 10px;
+  right: 175px;
+}
+.formFondo .formSoluciones form .title {
+  height: 110px;
+  width: 100%;
+  background-color: var(--acilColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formFondo .formSoluciones form .title span {
+  font-size: 0.8em;
+}
+.formFondo .formSoluciones form .containerForm {
+  padding: 10px 40px;
+}
+.formFondo .formSoluciones form .containerForm div {
+  margin-top: 10px;
+}
+.formFondo .formSoluciones form .containerForm div label {
+  font-family: "MontserratBold" !important;
+  font-size: 0.75em;
+}
+.formFondo .formSoluciones form .containerForm div .inputCamp {
+  margin-top: 5px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  outline: 1px solid white;
+  padding: 8px;
+  transition: 0.3s ease-in-out;
+}
+.formFondo .formSoluciones form .containerForm div .inputCamp:focus {
+  transition: 0.3s ease-in-out;
+  outline: 1px solid rgba(226, 92, 25, 0.431372549);
+}
+.formFondo .formSoluciones form .containerForm div .inputFile {
+  display: none;
+}
+.formFondo .formSoluciones form .containerForm div .subirContainer {
+  width: 100%;
+  transition: 0.3s ease-in-out;
+}
+.formFondo .formSoluciones form .containerForm div .subirContainer img {
+  height: 65px;
+}
+.formFondo .formSoluciones form .containerForm div .subirContainer:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease-in-out;
+}
+.formFondo .formSoluciones form .containerForm div .pymeResidencial {
+  margin-top: 40px;
+  display: flex !important;
+  justify-content: start !important;
+  align-items: center !important;
+  gap: 20px;
+}
+.formFondo .formSoluciones form .containerForm div .pymeResidencial span {
+  font-family: "MontserratBold" !important;
+  font-size: 0.5em;
+}
+.formFondo .formSoluciones form .containerForm div .terminosContainer {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  display: flex !important;
+  justify-content: start !important;
+  align-items: center !important;
+  gap: 20px;
+}
+.formFondo .formSoluciones form .containerForm div .terminosContainer span {
+  font-family: "MontserratBold" !important;
+  font-size: 0.5em;
+}
+.formFondo .formSoluciones form .containerForm div .btnEnviarContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+.formFondo .formSoluciones form .containerForm div .btnEnviarContainer img {
+  width: 300px;
+}
+.formFondo .formSoluciones form .containerForm div .btnEnviarContainer:hover {
+  filter: drop-shadow(3px 3px 7px rgba(255, 166, 0, 0.75));
+  transition: 0.3s ease-in-out;
+}
+
+.productos {
+  position: relative;
+}
+.productos .containerProductsMain {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.productos .containerProductsMain .barraInicio {
+  position: relative;
+  height: 5px;
+  width: 100%;
+  background: rgb(224, 91, 25);
+  background: linear-gradient(145deg, rgb(224, 91, 25) 0%, rgb(255, 118, 38) 45%, rgb(255, 164, 0) 100%);
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.productos .containerProductsMain .titleSuscription {
+  font-family: "MontserratExtraBold" !important;
+  color: var(--acilColor);
+}
+.productos .containerProductsMain .lineTitle {
+  height: 1px;
+  width: 80vw !important;
+  border: 1px solid var(--acilColor) !important;
+}
+.productos .containerProductsMain .lineTitle2 {
+  height: 20px;
+  width: 100%;
+  background: rgb(224, 91, 25);
+  background: linear-gradient(145deg, rgb(224, 91, 25) 0%, rgb(255, 118, 38) 45%, rgb(255, 164, 0) 100%);
+}
+.productos .containerProductsMain .containerProducts {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  height: 225px;
+  width: 100%;
+  background-color: var(--acilColor);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25), -5px -5px 15px rgba(0, 0, 0, 0.25);
+}
+.productos .containerProductsMain .containerProducts .containerCard {
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: 135px;
+}
+.productos .containerProductsMain .containerProducts .containerCard img {
+  height: 100px;
+  transition: 0.3s ease-in-out;
+}
+.productos .containerProductsMain .containerProducts .containerCard img:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease-in-out;
+  filter: drop-shadow(3px 3px 7px rgba(255, 255, 255, 0.3));
+}
+.productos .containerProductsMain .containerProducts .containerCard p {
+  margin-top: 10px;
+  color: white;
+  font-family: "MontserratRegular" !important;
+  font-size: 0.75em;
+}
+.productos .containerProductsMain .equipoContainerMain {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+.productos .containerProductsMain .equipoContainerMain .equipo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 30%;
+}
+.productos .containerProductsMain .equipoContainerMain .equipo img {
+  height: 75%;
+}
+.productos .containerProductsMain .equipoContainerMain .equipoDescription {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+}
+.productos .containerProductsMain .equipoContainerMain .equipoDescription h3 {
+  font-family: "MontserratExtraBold" !important;
+  color: var(--acilColor);
+  font-size: 1.4em;
+}
+.productos .containerProductsMain .equipoContainerMain .equipoDescription span {
+  font-family: "MontserratBold" !important;
+  font-size: 1em;
+}
+.productos .containerProductsMain .containerProducts2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  height: 225px;
+  width: 100%;
+  background-color: rgb(255, 164, 0);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25), -5px -5px 15px rgba(0, 0, 0, 0.25);
+}
+.productos .containerProductsMain .containerProducts2 .containerCard2 {
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: 150px;
+}
+.productos .containerProductsMain .containerProducts2 .containerCard2 img {
+  height: 100px;
+  transition: 0.3s ease-in-out;
+}
+.productos .containerProductsMain .containerProducts2 .containerCard2 img:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease-in-out;
+  filter: drop-shadow(3px 3px 7px rgba(255, 255, 255, 0.3));
+}
+.productos .containerProductsMain .containerProducts2 .containerCard2 p {
+  margin-top: 10px;
+  color: white;
+  font-family: "MontserratRegular" !important;
+  font-size: 0.65em;
+}
+.productos .containerProductsMain .containerProducts2 .camarasOperacion {
+  margin-top: 45px;
+}
+
+@media (max-width: 480px) {
+  .formFondo {
+    position: relative;
+  }
+  .formFondo .containerContactanos {
+    background-position-x: right;
+    height: 780px;
+  }
+  .formFondo .formContactanos {
+    height: 600px;
+    width: 90vw;
+    top: 40px;
+    right: 20px;
+  }
+  .formFondo .formContactanos form .title {
+    height: 110px;
+  }
+  .formFondo .formContactanos form .title span {
+    font-size: 1.2em;
+  }
+  .formFondo .formContactanos form .containerForm {
+    padding: 10px 40px;
+  }
+  .formFondo .formContactanos form .containerForm div {
+    margin-top: 5px;
+  }
+  .formFondo .formContactanos form .containerForm div label {
+    font-family: "MontserratBold" !important;
+    font-size: 0.75em;
+  }
+  .formFondo .formContactanos form .containerForm div .inputCamp {
+    margin-top: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    outline: 1px solid white;
+    padding: 8px;
+    transition: 0.3s ease-in-out;
+  }
+  .formFondo .formContactanos form .containerForm div .inputCamp:focus {
+    transition: 0.3s ease-in-out;
+    outline: 1px solid rgba(226, 92, 25, 0.431372549);
+  }
+  .formFondo .formContactanos form .containerForm div .inputFile {
+    display: none;
+  }
+  .formFondo .formContactanos form .containerForm div .subirContainer {
+    width: 100%;
+  }
+  .formFondo .formContactanos form .containerForm div .subirContainer img {
+    height: 65px;
+  }
+  .formFondo .formContactanos form .containerForm div .pymeResidencial {
+    margin-top: 20px;
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    gap: 20px;
+  }
+  .formFondo .formContactanos form .containerForm div .pymeResidencial span {
+    font-family: "MontserratBold" !important;
+    font-size: 0.5em;
+  }
+  .formFondo .formContactanos form .containerForm div .terminosContainer {
+    margin-top: 15px;
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    gap: 20px;
+  }
+  .formFondo .formContactanos form .containerForm div .terminosContainer span {
+    font-family: "MontserratBold" !important;
+    font-size: 0.5em;
+  }
+  .formFondo .formContactanos form .containerForm div .btnEnviarContainer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .formFondo .formContactanos form .containerForm div .btnEnviarContainer img {
+    width: 300px;
+  }
+}
+/*************************** SOLUCIONES *******************************//*# sourceMappingURL=soluciones.css.map */

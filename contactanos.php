@@ -3,6 +3,7 @@
 
     <head>
         <?php require "head.php"; ?>
+        <link rel="stylesheet" href="./css/contactanos.css"/>
         <title>ACIL México - Contáctanos</title>
         <link rel="canonical" href="https://acil.mx" />
         <meta property="og:title" content="ACIL México: Bolsa de Trabajo"/>

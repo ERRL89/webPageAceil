@@ -1,0 +1,92 @@
+/*************************** LEGAL *******************************/
+.containerLegales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.containerLegales .lineTitleInicio {
+  height: 3px;
+  width: 100% !important;
+}
+.containerLegales .titleSuscription {
+  font-family: "MontserratExtraBold" !important;
+  color: var(--acilColor);
+}
+.containerLegales .lineTitle {
+  height: 1px;
+  width: 80vw !important;
+  border: 1px solid var(--acilColor) !important;
+}
+.containerLegales .containerItems {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 500px;
+}
+.containerLegales .containerItems a .item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+.containerLegales .containerItems a .item .textItem {
+  position: absolute;
+  top: 50px;
+  font-family: "MontserratExtraBold" !important;
+  color: var(--acilColor);
+  font-size: 1.6em;
+}
+.containerLegales .containerItems a .item .hexagono {
+  position: relative;
+  height: 225px;
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0));
+}
+.containerLegales .containerItems a .item .btnHexagono {
+  position: absolute;
+  bottom: 20px;
+  height: 4.5em;
+}
+.containerLegales .containerItems a .item:hover {
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.25));
+  transform: translateY(-3px);
+  transition: 0.3s ease-in-out;
+}
+.containerLegales .lineTitle2 {
+  height: 8px;
+  width: 80vw !important;
+  background: rgb(224, 91, 25);
+  background: linear-gradient(145deg, rgb(224, 91, 25) 0%, rgb(255, 118, 38) 45%, rgb(255, 164, 0) 100%);
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1050px) {
+  .containerItems {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .containerLegales {
+    margin-top: -50px;
+    height: 1450px;
+  }
+  .containerLegales .lineTitleInicio {
+    width: 90% !important;
+  }
+  .containerLegales .titleSuscription {
+    font-size: 2.25em;
+  }
+  .containerLegales .containerItems {
+    height: 1000px;
+  }
+  .containerLegales .containerItems a .item .textItem {
+    font-size: 1.5em;
+  }
+}
+/*************************** LEGAL *******************************//*# sourceMappingURL=legal.css.map */

@@ -1,0 +1,94 @@
+/*************************** CODIGO DE ETICA *******************************/
+.containerEtica {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -25px;
+  margin-bottom: 50px;
+}
+.containerEtica .lineTitleInicio {
+  height: 1px;
+  width: 100% !important;
+}
+.containerEtica img {
+  height: 125px !important;
+  margin-bottom: 20px;
+}
+.containerEtica .lineTitle {
+  height: 1px;
+  width: 80vw !important;
+  border: 1px solid var(--acilColor) !important;
+}
+.containerEtica .containerImg {
+  position: relative;
+  height: 400px;
+  width: 90%;
+}
+.containerEtica .containerImg .enMantenimiento {
+  margin-top: 10px;
+  margin-left: 75px;
+  height: 95% !important;
+}
+.containerEtica .mantenimientoText {
+  position: relative;
+  height: 50px !important;
+}
+.containerEtica .mantenimientoText span {
+  font-family: "MontserratExtraBold" !important;
+  font-size: 2em !important;
+  color: var(--acilColor) !important;
+}
+.containerEtica .lineTitle2 {
+  height: 8px;
+  width: 80vw !important;
+  background-color: var(--acilColor);
+  border: 1px solid var(--acilColor) !important;
+}
+
+@media (max-width: 480px) {
+  .containerEtica {
+    margin-bottom: 125px !important;
+  }
+  .containerEtica .lineTitleInicio {
+    height: 1px;
+    width: 100% !important;
+  }
+  .containerEtica img {
+    height: 85px !important;
+    margin-bottom: 10px;
+  }
+  .containerEtica .lineTitle {
+    height: 1px;
+    width: 80vw !important;
+    border: 1px solid var(--acilColor) !important;
+  }
+  .containerEtica .containerImg {
+    position: relative;
+    height: 150px;
+    width: 90%;
+    margin-top: 35px;
+  }
+  .containerEtica .containerImg .enMantenimiento {
+    margin-left: 30px;
+    height: auto !important;
+    width: 90%;
+  }
+  .containerEtica .mantenimientoText {
+    margin-top: 20px;
+  }
+  .containerEtica .mantenimientoText span {
+    font-family: "MontserratExtraBold" !important;
+    font-size: 1.5em !important;
+    color: var(--acilColor) !important;
+  }
+  .containerEtica .lineTitle2 {
+    height: 8px;
+    width: 80vw !important;
+    background-color: var(--acilColor);
+    border: 1px solid var(--acilColor) !important;
+    margin-top: -10px !important;
+  }
+}
+/*************************** CODIGO DE ETICA *******************************//*# sourceMappingURL=etica.css.map */

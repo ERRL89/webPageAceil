@@ -14,7 +14,7 @@
           <a class="nav-link itemList" href="https://acil.mx/conocenos.php">Nosotros</a>
         </li>
         <li class="nav-item mx-3 marginItemList">
-          <a class="nav-link itemList" href="#">Soluciones</a>
+          <a class="nav-link itemList" href="./soluciones.php">Soluciones</a>
         </li>
         <li class="nav-item mx-3 marginItemList">
           <a class="nav-link itemList" href="./aplicaciones.php">Aplicaciones</a>

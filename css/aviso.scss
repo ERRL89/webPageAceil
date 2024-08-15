@@ -1,0 +1,97 @@
+/*************************** AVISO DE PRIVACIDAD *******************************/
+
+.containerAviso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .lineTitleInicio {
+        height: 1px;
+        width: 100% !important;
+    }
+
+    img {
+        height: 125px !important;
+        margin-bottom: 10px;
+        margin-top: -30px;
+    }
+
+    .lineTitle {
+        height: 1px;
+        width: 80vw !important;
+        border: 1px solid var(--acilColor) !important;
+    }
+
+    .avisoText {
+        width: 70%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+
+        span {
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            font-size: .8em;
+            font-family: 'MontserratRegular';
+        }
+    }
+
+    .lineTitle2 {
+        height: 8px;
+        width: 80vw !important;
+        background-color: var(--acilColor);
+        border: 1px solid var(--acilColor) !important;
+    }
+}
+
+@media (max-width:480px) {
+    .containerAviso {
+        position: relative;
+        width: 100% !important;
+        margin-top: 0px !important;
+        margin-bottom: 125px !important;
+
+        .lineTitleInicio {
+            height: 1px;
+            width: 100% !important;
+        }
+
+        img {
+            height: 85px !important;
+            margin-bottom: 10px;
+        }
+
+        .lineTitle {
+            height: 1px;
+            width: 80vw !important;
+            border: 1px solid var(--acilColor) !important;
+        }
+
+        .avisoText {
+            position: relative;
+            width: 90%;
+            display: flex;
+            justify-content: center !important;
+            align-items: center !important;
+
+            span {
+                display: flex;
+                justify-content: center !important;
+                align-items: center !important;
+                font-size: .8em;
+                font-family: 'MontserratRegular';
+            }
+        }
+
+        .lineTitle2 {
+            height: 8px;
+            width: 80vw !important;
+            background-color: var(--acilColor);
+            border: 1px solid var(--acilColor) !important;
+        }
+    }
+}
+
+/*************************** AVISO DE PRIVACIDAD *******************************/

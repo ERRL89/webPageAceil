@@ -1,0 +1,117 @@
+/*************************** LEGAL *******************************/
+
+.containerLegales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+    .lineTitleInicio {
+        height: 3px;
+        width: 100% !important;
+    }
+
+    .titleSuscription {
+        font-family: 'MontserratExtraBold' !important;
+        color: var(--acilColor);
+    }
+
+    .lineTitle {
+        height: 1px;
+        width: 80vw !important;
+        border: 1px solid var(--acilColor) !important;
+    }
+
+    .containerItems {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        height: 500px;
+
+        a {
+            .item {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: .3s ease-in-out;
+
+                .textItem {
+                    position: absolute;
+                    top: 50px;
+                    font-family: 'MontserratExtraBold' !important;
+                    color: var(--acilColor);
+                    font-size: 1.6em;
+                }
+
+                .hexagono {
+                    position: relative;
+                    height: 225px;
+                    filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0));
+                }
+
+                .btnHexagono {
+                    position: absolute;
+                    bottom: 20px;
+                    height: 4.5em;
+                }
+
+                &:hover {
+                    filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.25));
+                    transform: translateY(-3px);
+                    transition: .3s ease-in-out;
+                }
+            }
+        }
+    }
+
+    .lineTitle2 {
+        height: 8px;
+        width: 80vw !important;
+        background: rgb(224,91,25);
+        background: linear-gradient(145deg, rgba(224,91,25,1) 0%, rgba(255,118,38,1) 45%, rgba(255,164,0,1) 100%);
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:1050px) {
+    .containerItems {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:480px) {
+
+    .containerLegales {
+        margin-top: -50px;
+        height: 1450px;
+
+        .lineTitleInicio {
+            width: 90% !important;
+        }
+
+        .titleSuscription {
+            font-size: 2.25em;
+        }
+
+        .containerItems {
+            height: 1000px;
+
+            a {
+                .item {
+
+                    .textItem {
+                        font-size: 1.5em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*************************** LEGAL *******************************/

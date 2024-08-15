@@ -1,0 +1,85 @@
+/*************************** TERMINOS Y CONDICIONES *******************************/
+
+.containerTerminos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .lineTitleInicio {
+        height: 1px;
+        width: 100% !important;
+    }
+
+    img {
+        height: 125px !important;
+        margin-bottom: 10px;
+        margin-top: -30px;
+    }
+
+    .lineTitle {
+        height: 1px;
+        width: 80vw !important;
+        border: 1px solid var(--acilColor) !important;
+    }
+
+    .avisoText {
+        width: 70%;
+        display: flex;
+
+        span {
+            display: flex;
+            font-size: .8em;
+            font-family: 'MontserratRegular';
+        }
+    }
+
+    .lineTitle2 {
+        height: 8px;
+        width: 80vw !important;
+        background-color: var(--acilColor);
+        border: 1px solid var(--acilColor) !important;
+    }
+}
+
+@media (max-width:480px) {
+    .containerTerminos {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative;
+        width: 100% !important;
+        margin-top: 0px !important;
+        margin-bottom: 125px !important;
+
+        img {
+            height: 85px !important;
+            margin-bottom: 10px;
+        }
+
+        .avisoText {
+            position: relative;
+            width: 90%;
+            display: flex;
+            justify-content: center !important;
+            align-items: center !important;
+
+            span {
+                display: flex;
+                justify-content: center !important;
+                align-items: center !important;
+                font-size: .8em;
+                font-family: 'MontserratRegular';
+            }
+        }
+
+        .lineTitle2 {
+            height: 8px;
+            width: 80vw !important;
+            background-color: var(--acilColor);
+            border: 1px solid var(--acilColor) !important;
+        }
+    }
+}
+
+/*************************** TERMINOS Y CONDICIONES *******************************/
