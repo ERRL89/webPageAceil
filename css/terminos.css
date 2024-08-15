@@ -1,0 +1,73 @@
+/*************************** TERMINOS Y CONDICIONES *******************************/
+.containerTerminos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.containerTerminos .lineTitleInicio {
+  height: 1px;
+  width: 100% !important;
+}
+.containerTerminos img {
+  height: 125px !important;
+  margin-bottom: 10px;
+  margin-top: -30px;
+}
+.containerTerminos .lineTitle {
+  height: 1px;
+  width: 80vw !important;
+  border: 1px solid var(--acilColor) !important;
+}
+.containerTerminos .avisoText {
+  width: 70%;
+  display: flex;
+}
+.containerTerminos .avisoText span {
+  display: flex;
+  font-size: 0.8em;
+  font-family: "MontserratRegular";
+}
+.containerTerminos .lineTitle2 {
+  height: 8px;
+  width: 80vw !important;
+  background-color: var(--acilColor);
+  border: 1px solid var(--acilColor) !important;
+}
+
+@media (max-width: 480px) {
+  .containerTerminos {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative;
+    width: 100% !important;
+    margin-top: 0px !important;
+    margin-bottom: 125px !important;
+  }
+  .containerTerminos img {
+    height: 85px !important;
+    margin-bottom: 10px;
+  }
+  .containerTerminos .avisoText {
+    position: relative;
+    width: 90%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .containerTerminos .avisoText span {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 0.8em;
+    font-family: "MontserratRegular";
+  }
+  .containerTerminos .lineTitle2 {
+    height: 8px;
+    width: 80vw !important;
+    background-color: var(--acilColor);
+    border: 1px solid var(--acilColor) !important;
+  }
+}
+/*************************** TERMINOS Y CONDICIONES *******************************//*# sourceMappingURL=terminos.css.map */

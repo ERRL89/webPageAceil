@@ -18,7 +18,7 @@
                     <div class="textColumn2">
                         <a href="./conocenos.php"><span>Conócenos</span></a><br>
                         <a href="./legal.php"><span>Legal</span></a><br>
-                        <a href=""><span>Aplicaciones</span></a>
+                        <a href="./aplicaciones.php"><span>Aplicaciones</span></a>
                     </div>
                 </div><br>
                 <div>

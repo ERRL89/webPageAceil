@@ -3,6 +3,7 @@
 
     <head>
         <?php require "head.php"; ?>
+        <link rel="stylesheet" href="./css/etica.css"/>
         <title>ACIL México</title>
         <link rel="canonical" href="https://acil.mx" />
         <meta property="og:title" content="ACIL México: Codigo de Ética"/>
