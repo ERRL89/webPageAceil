@@ -2212,16 +2212,20 @@ section{
 }
 
 .edificiosContainerMain{
+    background-color: rgb(242, 242, 242);
+    border: 1px solid var(--acilColor);
+    
 
     .edificiosContainer{
         position: relative;
-        height: 300px;
+        height: 350px;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 40px;
+        margin-top: 90px;
         margin-bottom: 40px;
+        background-color: rgb(242, 242, 242);
         .column1{
             position: relative;
             height: 100%;
@@ -2231,7 +2235,7 @@ section{
             background-size: cover;
             .flecha{
                 position: absolute;
-                height: 300px;
+                height: 100%;
                 right: 5px;
                 width: 50px;
             }
@@ -2239,7 +2243,7 @@ section{
         .column2{
             position: relative;
             height: 100%;
-            width: 40%;
+            width: 30%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -2249,27 +2253,26 @@ section{
                 top: 0;
                 font-family: 'MontserratExtraBold' !important;
                 color: var(--acilColor);
-                font-size: 1.2em;
+                font-size: 1.5em;
             }
 
             .edificioImgContainer{
                 position: relative;
                 display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100%;
-                width: 100%;
+                justify-content: end;
+                align-items: end;
+                height:100%;
+                width: 500px;
 
                 .edificio{
-                    position: absolute;
-                    bottom: 0;
-                    height: 250px;
+                    position: relative;
+                    height: 100%;
                 }
 
                 .camarasDepa{
                     position: absolute;
-                    top: 45px;
-                    right: 160px;
+                    top: 12%;
+                    right: 16%;
                     height: 30px;
                     transition: .3s ease-in-out;
                     &:hover{
@@ -2280,8 +2283,8 @@ section{
 
                 .alarmasDepa{
                     position: absolute;
-                    top: 105px;
-                    right: 270px;
+                    top: 28%;
+                    right: 50%;
                     height: 30px;
                     transition: .3s ease-in-out;
                     &:hover{
@@ -2292,8 +2295,8 @@ section{
 
                 .cerraduraDepa{
                     position: absolute;
-                    top: 220px;
-                    right: 180px;
+                    top: 68%;
+                    right: 30%;
                     height: 30px;
                     transition: .3s ease-in-out;
                     &:hover{
@@ -2304,8 +2307,8 @@ section{
 
                 .videoporteroDepa{
                     position: absolute;
-                    top: 195px;
-                    right: 140px;
+                    top: 60%;
+                    right: 18%;
                     height: 30px;
                     transition: .3s ease-in-out;
                     &:hover{
@@ -2316,8 +2319,8 @@ section{
 
                 .camaras2Depa{
                     position: absolute;
-                    top: 160px;
-                    right: 380px;
+                    top: 45%;
+                    right: 75%;
                     height: 30px;
                     transition: .3s ease-in-out;
                     &:hover{
@@ -2328,19 +2331,45 @@ section{
             }
         }
         .column3{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             height: 100%;
-            width: 20%;
+            width: 30%;
             .cardApp{
+                position: relative;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
+                width: 65%;
+                border-radius: 20px;
+                background-color: white;
                 .title{
-                    color: red;
-                    font-size: 1em;
+                    margin-top: 20px !important;
+                    font-family: 'MontserratExtraBold' !important;
+                    color: var(--acilColor);
+                    font-size: 1.3em;
                 }
-                .equipo{
-                    height: 100px;
+                .imgCard{
+                    width: 100%;
+                    height: 150px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 10px;
+                    img{
+                        height: 65%;
+                    }
+                }
+                .description{
+                    padding: 10px 10px;
+                    p{
+                        font-family: 'MontserratBold' !important;
+                        font-size: .65em;
+                        color: gray;
+                    }
                 }
                
             }
@@ -2355,15 +2384,12 @@ section{
             background-size: cover;
             .flecha{
                 position: absolute;
-                height: 300px;
+                height: 100%;
                 left: 5px;
                 width: 50px;
             }
         }
     }
-
-   
-   
 
     .selectsContainer{
         display: flex;
@@ -2391,6 +2417,138 @@ section{
     .barraEspacio3{
         height: 20px;
         background-color: var(--acilColor);
+    }
+}
+
+.etiquetasContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 25px;
+
+    .etiqueta1{
+        position: relative;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+        border: 1px solid red;
+        height: 275px;
+        img{
+            height: 100%;
+        }
+        .title1{
+            position: absolute;
+            color: rgb(255, 255, 255);
+            font-family: 'MontserratBold' !important;
+            font-size: 1.8em;
+            top: 7px;
+            right: 60%;
+        }
+        .etiquetaTextContainer{
+            position: absolute;
+            top: 36%;
+            right: 46%;
+            width: 25%;
+            p{
+                color: rgb(255, 255, 255);
+                font-family: 'MontserratRegular' !important;
+                font-size: 1.03em;
+            }
+        }
+        .etiquetaBtn{
+            position: absolute;
+            top: 35%;
+            right: 40%;
+            height: 80px;
+        }
+    }
+
+    .etiqueta2{
+        position: relative;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 100%;
+        border: 1px solid red;
+        height: 275px;
+        img{
+            height: 100%;
+        }
+        .title2{
+            position: absolute;
+            color: rgb(255, 255, 255);
+            font-family: 'MontserratBold' !important;
+            font-size: 1.8em;
+            top: 7px;
+            left: 60%
+        }
+        .etiquetaTextContainer2{
+            position: absolute;
+            top: 36%;
+            left: 47%;
+            width: 25%;
+            p{
+                color: rgb(255, 255, 255);
+                font-family: 'MontserratRegular' !important;
+                font-size: 1.03em;
+            }
+        }
+        .etiquetaBtn2{
+            position: absolute;
+            top: 35%;
+            left: 40%;
+            height: 80px;
+            rotate: 180deg;
+        }
+    }
+
+    .etiqueta3{
+        position: relative;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+        border: 1px solid red;
+        height: 275px;
+        img{
+            height: 100%;
+        }
+        .title3{
+            position: absolute;
+            color: rgb(255, 255, 255);
+            font-family: 'MontserratBold' !important;
+            font-size: 1.8em;
+            top: 7px;
+            right: 45%;
+        }
+        .etiquetaTextContainer3{
+            position: absolute;
+            top: 36%;
+            right: 46%;
+            width: 25%;
+            p{
+                color: rgb(255, 255, 255);
+                font-family: 'MontserratRegular' !important;
+                font-size: 1.03em;
+            }
+        }
+        .etiquetaBtn3{
+            position: absolute;
+            top: 35%;
+            right: 40%;
+            height: 80px;
+        }
+    }
+
+    .barraEspacio{
+        width: 80%;
+        height: 10px;
+        color: var(--acilColor);
+        margin-bottom: 25px;
     }
 }
 
