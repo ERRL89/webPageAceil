@@ -70,6 +70,7 @@
                     <h3 class="titleSuscription">PRODUCTOS</h3>
                     <div class="lineTitle"></div>
 
+                    <!-- CONTENEDOR DE PRODUCTOS -->
                     <div class="containerProducts">
                         <div class="containerCard text-center">
                             <img src="./images/soluciones/Cámaras.svg" alt="Productos Acil México Cámaras CCTV">
@@ -165,6 +166,7 @@
                     <h3 class="titleSuscription mt-4">SERVICIOS</h3>
                     <div class="lineTitle"></div>
 
+                    <!-- CONTENEDOR DE SERVICIOS -->
                     <div class="containerProducts2">
                         <div class="containerCard2 camarasOperacion text-center">
                             <img src="./images/soluciones/Cámaras.svg" alt="Productos Acil México Cámaras CCTV">
@@ -238,6 +240,105 @@
 
                 </div>
             </section><br><br>
+
+            <!-- PLATAFORMAS -->
+             <section class="plataformas">
+                <div class="containerPlataformsMain text-center">
+                    <h3 class="titleSuscription">PLATAFORMAS</h3>
+                    <div class="lineTitle"></div>
+
+                    <div class="containerPlataforms1">
+                        <div class="containerPlataformsTxt1 mt-5">
+                            <img src="./images/plataformas/Acil Contigo.svg" alt="">
+                            <h3>ACIL CONTIGO</h3>
+                            <div class="containerPlataformsTxtDescription1">
+                                <strong><p>Es una aplicación que está destinada a brindar apoyo a cada persona en caso de emergencias, dependiendo del botón que se presione será la forma en la que se brinde el apoyo.</p></strong>
+                            </div>
+                            <div class="apps1">
+                                <img src="./images/plataformas/GooglePlay.svg" class="imgApp1">
+                                <img src="./images/plataformas/AppStore.svg" class="imgApp1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="containerPlataforms2">
+                        <div class="containerPlataformsTxt2 mt-5">
+                            <img src="./images/plataformas/Acil On Time.svg">
+                            <h3>ACIL On TIME</h3>
+                            <div class="containerPlataformsTxtDescription2">
+                                <strong><p>Plataforma diseñada para la gestión y seguridad en las escuelas. A través de biometría los alumnos pueden accesar de manera rápida y segura, por medio del reconocimiento facial. Los padres de familia reciben una notificación en tiempo
+                                real, informándoles que su hijo se encuentra dentro de las instalaciones o si no ha llegado.</p></strong>
+                            </div>
+                            <div class="apps2">
+                                <img src="./images/plataformas/GooglePlay.svg" class="imgApp2">
+                                <img src="./images/plataformas/AppStore.svg" class="imgApp2">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="containerPlataforms3">
+                        <div class="containerPlataformsTxt3 mt-5">
+                            <img src="./images/plataformas/Acil Clubs.svg">
+                            <h3>ACIL CLUBS</h3>
+                            <div class="containerPlataformsTxtDescription3">
+                                <strong><p>ACIL Clubs ofrece una experiencia única tanto para los usuarios como para el personal del club. La integración de tecnología biométrica permite que a través del reconocimiento facial el sistema reconozca al usuario y verifique su acceso
+                                al club en tiempo real, basado en datos almacenados y el estado de los pagos de sus membresías.</p></strong>
+                            </div>
+                            <div class="apps3">
+                                <img src="./images/plataformas/GooglePlay.svg" class="imgApp3">
+                                <img src="./images/plataformas/AppStore.svg" class="imgApp3">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="masInfo">
+                    <h3>CONTÁCTANOS PARA MÁS INFORMACIÓN</h3>
+                    <img src="./images/plataformas/Contáctanos.svg">
+                </div><br>
+             </section>
+
+             <!-- ETIQUETAS -->
+            <section class="etiquetasContainer">
+                    <!-- ETIQUETA1 -->
+                    <div class="etiqueta1">
+                        <div class="etiqueta1Container">
+                            <img src="./images/aplicaciones/Portafolios.png" class="img-fluid">
+                            <span class="title1">Casos de uso</span>
+                            <div class="etiquetaTextContainer">
+                                <p><strong>Descubre cómo las soluciones de ACIL pueden transformar la seguridad en diferentes escenarios</strong></p>
+                            </div>
+                            <img class="etiquetaBtn" src="./images/aplicaciones/Botón.svg">
+                        </div>
+                    </div>
+
+                    <!-- ETIQUETA2 -->
+                    <div class="etiqueta2">
+                        <div class="etiqueta2Container">
+                            <img src="./images/aplicaciones/Soluciones.png" class="img-fluid">
+                            <span class="title2">Portafolio</span>
+                            <div class="etiquetaTextContainer2">
+                                <p><strong>Explora el portafolio de servicios de ACIL México y conoce nuestras soluciones innovadoras en seguridad electrónica, diseñadas para tu tranquilidad.</strong></p>
+                            </div>
+                            <img class="etiquetaBtn2" src="./images/aplicaciones/Botón.svg">
+                        </div>
+                    </div>
+
+                    <!-- ETIQUETA3 -->
+                    <div class="etiqueta3">
+                        <div class="etiqueta3Container">
+                            <img src="./images/aplicaciones/Socios.png" class="img-fluid">
+                            <span class="title3">Conviértete en un socio ACIL</span>
+                            <div class="etiquetaTextContainer3">
+                                <p><strong>Si te diéramos la oportunidad<br>de cambiar tu vida y la de tu familia<br>¿La tomarías?</strong></p>
+                            </div>
+                            <img class="etiquetaBtn3" src="./images/aplicaciones/Botón.svg">
+                        </div>
+                    </div>
+
+                    <div class="barraEspacio"></div>
+            </section>
 
         </main>
         

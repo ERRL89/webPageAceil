@@ -196,6 +196,11 @@
 }
 .productos .containerProductsMain .equipoContainerMain .equipo img {
   height: 75%;
+  transition: 0.3s ease-in-out;
+}
+.productos .containerProductsMain .equipoContainerMain .equipo img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
 .productos .containerProductsMain .equipoContainerMain .equipoDescription {
   position: relative;
@@ -253,6 +258,332 @@
 }
 .productos .containerProductsMain .containerProducts2 .camarasOperacion {
   margin-top: 45px;
+}
+
+.plataformas .containerPlataformsMain .titleSuscription {
+  font-family: "MontserratExtraBold" !important;
+  color: var(--acilColor);
+}
+.plataformas .containerPlataformsMain .lineTitle {
+  height: 1px;
+  width: 80vw !important;
+  border: 1px solid var(--acilColor) !important;
+}
+.plataformas .containerPlataformsMain .containerPlataforms1 {
+  position: relative;
+  margin-top: 75px;
+  height: 750px;
+  width: 100%;
+  background-image: url(../images/plataformas/Acil\ Contigo.jpg);
+  background-size: cover;
+}
+.plataformas .containerPlataformsMain .containerPlataforms1 .containerPlataformsTxt1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  right: 150px;
+  height: 100%;
+  width: 50%;
+  z-index: 1000;
+}
+.plataformas .containerPlataformsMain .containerPlataforms1 .containerPlataformsTxt1 img {
+  margin-top: -100px;
+  height: 125px;
+  width: 125px;
+  filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.9));
+  transition: 0.3s ease-in-out;
+}
+.plataformas .containerPlataformsMain .containerPlataforms1 .containerPlataformsTxt1 img:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease-in-out;
+  filter: drop-shadow(5px 5px 7px rgba(255, 255, 255, 0.05));
+}
+.plataformas .containerPlataformsMain .containerPlataforms1 .containerPlataformsTxt1 h3 {
+  margin-top: 25px;
+  font-family: "MontserratExtraBold" !important;
+  font-size: 4em;
+  color: white;
+}
+.plataformas .containerPlataformsMain .containerPlataforms1 .containerPlataformsTxt1 .containerPlataformsTxtDescription1 {
+  position: relative;
+  margin-top: 35px;
+  width: 80%;
+}
+.plataformas .containerPlataformsMain .containerPlataforms1 .containerPlataformsTxt1 .containerPlataformsTxtDescription1 p {
+  font-family: "MontserratRegular" !important;
+  font-size: 1.35em;
+  color: white;
+}
+.plataformas .containerPlataformsMain .containerPlataforms1 .containerPlataformsTxt1 .apps1 {
+  margin-top: 75px;
+}
+.plataformas .containerPlataformsMain .containerPlataforms2 {
+  position: relative;
+  margin-top: 25px;
+  height: 750px;
+  width: 100%;
+  background-image: url(../images/plataformas/Acil\ On\ Time.jpg);
+  background-size: cover;
+}
+.plataformas .containerPlataformsMain .containerPlataforms2 .containerPlataformsTxt2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  left: 150px;
+  height: 100%;
+  width: 50%;
+  z-index: 1000;
+}
+.plataformas .containerPlataformsMain .containerPlataforms2 .containerPlataformsTxt2 img {
+  margin-top: -100px;
+  height: 125px;
+  width: 125px;
+  filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.9));
+  transition: 0.3s ease-in-out;
+}
+.plataformas .containerPlataformsMain .containerPlataforms2 .containerPlataformsTxt2 img:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease-in-out;
+  filter: drop-shadow(5px 5px 7px rgba(255, 255, 255, 0.05));
+}
+.plataformas .containerPlataformsMain .containerPlataforms2 .containerPlataformsTxt2 h3 {
+  margin-top: 25px;
+  font-family: "MontserratExtraBold" !important;
+  font-size: 4em;
+  color: white;
+}
+.plataformas .containerPlataformsMain .containerPlataforms2 .containerPlataformsTxt2 .containerPlataformsTxtDescription2 {
+  position: relative;
+  margin-top: 35px;
+  width: 80%;
+}
+.plataformas .containerPlataformsMain .containerPlataforms2 .containerPlataformsTxt2 .containerPlataformsTxtDescription2 p {
+  font-family: "MontserratRegular" !important;
+  font-size: 1.35em;
+  color: white;
+}
+.plataformas .containerPlataformsMain .containerPlataforms2 .containerPlataformsTxt2 .apps2 {
+  margin-top: 75px;
+}
+.plataformas .containerPlataformsMain .containerPlataforms3 {
+  position: relative;
+  margin-top: 25px;
+  height: 750px;
+  width: 100%;
+  background-image: url(../images/plataformas/Acil\ Clubs.jpg);
+  background-size: cover;
+}
+.plataformas .containerPlataformsMain .containerPlataforms3 .containerPlataformsTxt3 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  right: 150px;
+  height: 100%;
+  width: 50%;
+  z-index: 1000;
+}
+.plataformas .containerPlataformsMain .containerPlataforms3 .containerPlataformsTxt3 img {
+  margin-top: -100px;
+  height: 125px;
+  width: 125px;
+  filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.9));
+  transition: 0.3s ease-in-out;
+}
+.plataformas .containerPlataformsMain .containerPlataforms3 .containerPlataformsTxt3 img:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease-in-out;
+  filter: drop-shadow(5px 5px 7px rgba(255, 255, 255, 0.05));
+}
+.plataformas .containerPlataformsMain .containerPlataforms3 .containerPlataformsTxt3 h3 {
+  margin-top: 25px;
+  font-family: "MontserratExtraBold" !important;
+  font-size: 4em;
+  color: white;
+}
+.plataformas .containerPlataformsMain .containerPlataforms3 .containerPlataformsTxt3 .containerPlataformsTxtDescription3 {
+  position: relative;
+  margin-top: 35px;
+  width: 80%;
+}
+.plataformas .containerPlataformsMain .containerPlataforms3 .containerPlataformsTxt3 .containerPlataformsTxtDescription3 p {
+  font-family: "MontserratRegular" !important;
+  font-size: 1.35em;
+  color: white;
+}
+.plataformas .containerPlataformsMain .containerPlataforms3 .containerPlataformsTxt3 .apps3 {
+  margin-top: 75px;
+}
+.plataformas .masInfo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 25px;
+  height: 150px;
+  width: 100%;
+  background: rgb(224, 91, 25);
+  background: linear-gradient(145deg, rgb(224, 91, 25) 0%, rgb(255, 118, 38) 45%, rgb(255, 164, 0) 100%);
+}
+.plataformas .masInfo h3 {
+  font-family: "MontserratExtraBold" !important;
+  font-size: 1.5em;
+  color: white;
+}
+.plataformas .masInfo img {
+  height: 75px;
+  transition: 0.3s ease-in-out;
+}
+.plataformas .masInfo img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  filter: drop-shadow(3px 3px 7px rgba(255, 255, 255, 0.5));
+}
+
+.etiquetasContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 25px;
+}
+.etiquetasContainer .etiqueta1 {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 275px;
+}
+.etiquetasContainer .etiqueta1 .etiqueta1Container {
+  position: relative;
+  height: 100%;
+}
+.etiquetasContainer .etiqueta1 .etiqueta1Container img {
+  height: 100%;
+}
+.etiquetasContainer .etiqueta1 .etiqueta1Container .title1 {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-family: "MontserratBold" !important;
+  font-size: 1.8em;
+  top: 5%;
+  right: 30%;
+}
+.etiquetasContainer .etiqueta1 .etiqueta1Container .etiquetaTextContainer {
+  position: absolute;
+  top: 40%;
+  right: 12.5%;
+  width: 42.5%;
+}
+.etiquetasContainer .etiqueta1 .etiqueta1Container .etiquetaTextContainer p {
+  color: rgb(255, 255, 255);
+  font-family: "MontserratRegular" !important;
+  font-size: 1.03em;
+}
+.etiquetasContainer .etiqueta1 .etiqueta1Container .etiquetaBtn {
+  position: absolute;
+  top: 35%;
+  right: 2.5%;
+  height: 80px;
+}
+.etiquetasContainer .etiqueta2 {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  height: 275px;
+}
+.etiquetasContainer .etiqueta2 .etiqueta2Container {
+  position: relative;
+  height: 100%;
+}
+.etiquetasContainer .etiqueta2 .etiqueta2Container img {
+  height: 100%;
+}
+.etiquetasContainer .etiqueta2 .etiqueta2Container .title2 {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-family: "MontserratBold" !important;
+  font-size: 1.8em;
+  top: 5%;
+  left: 25%;
+}
+.etiquetasContainer .etiqueta2 .etiqueta2Container .etiquetaTextContainer2 {
+  position: absolute;
+  top: 36%;
+  left: 14%;
+  width: 42.5%;
+}
+.etiquetasContainer .etiqueta2 .etiqueta2Container .etiquetaTextContainer2 p {
+  color: rgb(255, 255, 255);
+  font-family: "MontserratRegular" !important;
+  font-size: 1.03em;
+}
+.etiquetasContainer .etiqueta2 .etiqueta2Container .etiquetaBtn2 {
+  position: absolute;
+  top: 35%;
+  left: 2.5%;
+  height: 80px;
+  rotate: 180deg;
+}
+.etiquetasContainer .etiqueta3 {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 275px;
+}
+.etiquetasContainer .etiqueta3 .etiqueta3Container {
+  position: relative;
+  height: 100%;
+}
+.etiquetasContainer .etiqueta3 .etiqueta3Container img {
+  height: 100%;
+}
+.etiquetasContainer .etiqueta3 .etiqueta3Container .title3 {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-family: "MontserratBold" !important;
+  font-size: 1.8em;
+  top: 5%;
+  right: 12.5%;
+}
+.etiquetasContainer .etiqueta3 .etiqueta3Container .etiquetaTextContainer3 {
+  position: absolute;
+  top: 36%;
+  right: 14%;
+  width: 42.5%;
+}
+.etiquetasContainer .etiqueta3 .etiqueta3Container .etiquetaTextContainer3 p {
+  color: rgb(255, 255, 255);
+  font-family: "MontserratRegular" !important;
+  font-size: 1.03em;
+}
+.etiquetasContainer .etiqueta3 .etiqueta3Container .etiquetaBtn3 {
+  position: absolute;
+  top: 35%;
+  right: 2.5%;
+  height: 80px;
+}
+.etiquetasContainer .barraEspacio {
+  width: 80%;
+  height: 8px;
+  background: rgb(224, 91, 25);
+  background: linear-gradient(145deg, rgb(224, 91, 25) 0%, rgb(255, 118, 38) 45%, rgb(255, 164, 0) 100%);
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 @media (max-width: 480px) {
