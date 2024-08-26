@@ -4,9 +4,9 @@
     <head>
         <?php require "head.php"; ?>
         <link rel="stylesheet" href="./css/soluciones.css"/>
-        <title>ACIL México - Contáctanos</title>
+        <title>ACIL México - Soluciones</title>
         <link rel="canonical" href="https://acil.mx" />
-        <meta property="og:title" content="ACIL México: Bolsa de Trabajo"/>
+        <meta property="og:title" content="ACIL México: Soluciones"/>
         <meta property="og:url" content="https://acil.mx" />
         <meta property="og:image" content="https://acil.mx/images/og/og-image.png" />
     </head>

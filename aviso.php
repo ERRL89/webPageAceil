@@ -4,7 +4,7 @@
 <head>
     <?php require "head.php"; ?>
     <link rel="stylesheet" href="./css/aviso.css" />
-    <title>ACIL México</title>
+    <title>ACIL México: Aviso de Privacidad</title>
     <link rel="canonical" href="https://acil.mx" />
     <meta property="og:title" content="ACIL México: Aviso de Privacidad" />
     <meta property="og:url" content="https://acil.mx" />

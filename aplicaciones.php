@@ -4,7 +4,7 @@
 <head>
     <?php require "head.php"; ?>
     <link rel="stylesheet" href="./css/aplicaciones.css" />
-    <title>ACIL México - Bolsa de Trabajo</title>
+    <title>ACIL México - Aplicaciones</title>
     <link rel="canonical" href="https://acil.mx" />
     <meta property="og:title" content="ACIL México: Aplicaciones" />
     <meta property="og:url" content="https://acil.mx" />
