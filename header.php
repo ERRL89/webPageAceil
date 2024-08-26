@@ -11,7 +11,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav itemsListNav d-flex justify-content-center align-items-cener">
         <li class="nav-item mx-3 marginItemList">
-          <a class="nav-link itemList" href="https://acil.mx/conocenos.php">Nosotros</a>
+          <a class="nav-link itemList" href="./nosotros.php">Nosotros</a>
         </li>
         <li class="nav-item mx-3 marginItemList">
           <a class="nav-link itemList" href="./soluciones.php">Soluciones</a>

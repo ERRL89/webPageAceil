@@ -4,7 +4,7 @@
 <head>
     <?php require "head.php"; ?>
     <link rel="stylesheet" href="./css/terminos.css" />
-    <title>ACIL México</title>
+    <title>ACIL México: Terminos y Condiciones</title>
     <link rel="canonical" href="https://acil.mx" />
     <meta property="og:title" content="ACIL México: Terminos y Condiciones" />
     <meta property="og:url" content="https://acil.mx" />

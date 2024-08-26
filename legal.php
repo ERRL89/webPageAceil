@@ -4,7 +4,7 @@
 <head>
     <?php require "head.php"; ?>
     <link rel="stylesheet" href="./css/legal.css" />
-    <title>ACIL México</title>
+    <title>ACIL México: Legales</title>
     <link rel="canonical" href="https://acil.mx" />
     <meta property="og:title" content="ACIL México: Legales" />
     <meta property="og:url" content="https://acil.mx" />

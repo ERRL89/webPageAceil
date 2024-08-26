@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="./css/contactanos.css"/>
         <title>ACIL México - Contáctanos</title>
         <link rel="canonical" href="https://acil.mx" />
-        <meta property="og:title" content="ACIL México: Bolsa de Trabajo"/>
+        <meta property="og:title" content="ACIL México: Contáctanos"/>
         <meta property="og:url" content="https://acil.mx" />
         <meta property="og:image" content="https://acil.mx/images/og/og-image.png" />
     </head>
