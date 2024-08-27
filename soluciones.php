@@ -108,11 +108,11 @@
                     <div class="lineTitle mt-5"></div>
 
                     <!-- CÁMARAS DE SEGURIDAD -->
-                    <div class="equipoContainerMain">
-                        <div class="equipo">
+                    <div class="equipoContainerMain1">
+                        <div class="equipo1">
                             <img src="./images/aplicaciones/equipos/Cámaras.jpg" alt="">
                         </div>
-                        <div class="equipoDescription text-center">
+                        <div class="equipoDescription1 text-center">
                             <h3>Cámaras de seguridad</h3>
                             <span class="mt-4">
                             Las cámaras de seguridad son herramientas esenciales para proteger tu hogar o negocio. Ofrecen vigilancia continua, disuaden actividades delictivas y proporcionan evidencia clara de cualquier incidente, asegurando tranquilidad.
@@ -122,25 +122,25 @@
                     <div class="lineTitle"></div>
 
                     <!-- ALARMAS -->
-                    <div class="equipoContainerMain">
-                        <div class="equipoDescription text-center">
+                    <div class="equipoContainerMain2">
+                        <div class="equipoDescription2 text-center">
                             <h3>Alarmas</h3>
                             <span class="mt-4">
                             Las alarmas y sensores contra intrusiones son componentes clave para la seguridad de tu hogar o negocio. Detectan movimientos sospechosos y alertan en tiempo real a través de notificaciones en el celular. Proporcionando una protección efectiva garantizando tu tranquilidad.
                             </span>
                         </div>
-                        <div class="equipo">
+                        <div class="equipo2">
                             <img src="./images/aplicaciones/equipos/Alarmas.jpg" alt="">
                         </div>
                     </div>
                     <div class="lineTitle"></div>
 
                     <!-- CONTROL DE ACCESO Y ASISTENCIA -->
-                    <div class="equipoContainerMain">
-                        <div class="equipo">
+                    <div class="equipoContainerMain3">
+                        <div class="equipo3">
                             <img src="./images/aplicaciones/equipos/Control de acceso.jpg" alt="">
                         </div>
-                        <div class="equipoDescription text-center">
+                        <div class="equipoDescription3 text-center">
                             <h3>Control de acceso y asistencia</h3>
                             <span class="mt-4">
                             Los torniquetes, barreras vehiculares, cerraduras inteligentes, controles de acceso y asistencia garantizan una gestión segura de entradas y salidas. Estos dispositivos ofrecen una solución integral para gestionar el flujo de personas.
@@ -150,20 +150,20 @@
                     <div class="lineTitle"></div>
 
                     <!-- SISTEMAS DE CONTROL -->
-                    <div class="equipoContainerMain">
-                        <div class="equipoDescription text-center">
+                    <div class="equipoContainerMain4">
+                        <div class="equipoDescription4 text-center">
                             <h3>Sistemas de control</h3>
                             <span class="mt-4">
                             Los videoporteros permiten comunicación y verificación remota de visitantes, mientras que los arcos detectores de metales aseguran un control riguroso en puntos de entrada, protegiendo tus instalaciones con la máxima precisión.
                             </span>
                         </div>
-                        <div class="equipo">
+                        <div class="equipo4">
                             <img src="./images/aplicaciones/equipos/Sistemas de control.jpg" alt="">
                         </div>
                     </div>
                     <div class="lineTitle2 mt-5"></div>
 
-                    <h3 class="titleSuscription mt-4">SERVICIOS</h3>
+                    <h3 class="titleSuscription2 mt-4">SERVICIOS</h3>
                     <div class="lineTitle"></div>
 
                     <!-- CONTENEDOR DE SERVICIOS -->
@@ -196,11 +196,11 @@
                     <div class="lineTitle mt-5"></div>
 
                     <!-- MONITOREO DE ALARMA -->
-                    <div class="equipoContainerMain">
-                        <div class="equipo">
+                    <div class="equipoContainerMain5">
+                        <div class="equipo5">
                             <img src="./images/soluciones/Monitoreo de alarmas.svg">
                         </div>
-                        <div class="equipoDescription text-center">
+                        <div class="equipoDescription5 text-center">
                             <h3>Monitoreo de alarma</h3>
                             <span class="mt-4">
                             <b>Somos en enlace a los servicios de emergencia.</b><br>Al recibir la alerta en la central de monitoreo brindamos asistencia personal y enlace a los servicios de emergencias.
@@ -210,25 +210,25 @@
                     <div class="lineTitle"></div>
 
                     <!-- MONITOREO DE CÁMARAS EN OPERACIÓN -->
-                    <div class="equipoContainerMain">
-                        <div class="equipoDescription text-center">
+                    <div class="equipoContainerMain6">
+                        <div class="equipoDescription6 text-center">
                             <h3>Monitoreo de cámaras en operación</h3>
                             <span class="mt-4">
                             <b>Supervisar es prevenir.</b><br>Alertamos sobre incidentes con nuestra videovigilancia remota. Monitoreo en tiempo real de cámaras para seguir las consignas indicadas por el cliente.
                             </span>
                         </div>
-                        <div class="equipo">
+                        <div class="equipo6">
                             <img src="./images/soluciones/Monitoreo de cámaras en operación.svg">
                         </div>
                     </div>
                     <div class="lineTitle"></div>
 
                     <!-- MONITOREO DE PERSONAL -->
-                    <div class="equipoContainerMain">
-                        <div class="equipo">
+                    <div class="equipoContainerMain7">
+                        <div class="equipo7">
                             <img src="./images/soluciones/Monitoreo de personal.svg">
                         </div>
-                        <div class="equipoDescription text-center">
+                        <div class="equipoDescription7 text-center">
                             <h3>Monitoreo de personal</h3>
                             <span class="mt-4">
                             <b>La supervisión de capital humano en la palma de tu mano.</b><br>Por medio la aplicación se lleva a cabo un control del personal de limpieza y seguridad de una empresa. Puedes gestionar reportes , cumplimiento de actividades y apoyo en emergencias.
@@ -236,7 +236,7 @@
                         </div>
                     </div>
                     <div class="lineTitle"></div>
-                    <div class="lineTitle2 mt-5"></div>
+                    <div class="lineTitle3"></div>
 
                 </div>
             </section><br><br>
@@ -295,7 +295,7 @@
 
                 <div class="masInfo">
                     <h3>CONTÁCTANOS PARA MÁS INFORMACIÓN</h3>
-                    <img src="./images/plataformas/Contáctanos.svg">
+                    <a href="https://wa.me/5218008082245" target="_blank"><img src="./images/plataformas/Contáctanos.svg"></a>
                 </div><br>
              </section>
 
@@ -309,7 +309,7 @@
                             <div class="etiquetaTextContainer">
                                 <p><strong>Descubre cómo las soluciones de ACIL pueden transformar la seguridad en diferentes escenarios</strong></p>
                             </div>
-                            <img class="etiquetaBtn" src="./images/aplicaciones/Botón.svg">
+                            <a href="./aplicaciones.php"><img class="etiquetaBtn" src="./images/aplicaciones/Botón.svg"></a>
                         </div>
                     </div>
 

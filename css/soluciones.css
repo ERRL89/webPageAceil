@@ -178,7 +178,7 @@
   font-family: "MontserratRegular" !important;
   font-size: 0.75em;
 }
-.productos .containerProductsMain .equipoContainerMain {
+.productos .containerProductsMain .equipoContainerMain1, .productos .containerProductsMain .equipoContainerMain2, .productos .containerProductsMain .equipoContainerMain3, .productos .containerProductsMain .equipoContainerMain4, .productos .containerProductsMain .equipoContainerMain5, .productos .containerProductsMain .equipoContainerMain6, .productos .containerProductsMain .equipoContainerMain7 {
   position: relative;
   display: flex;
   justify-content: center;
@@ -186,7 +186,7 @@
   width: 100%;
   height: 300px;
 }
-.productos .containerProductsMain .equipoContainerMain .equipo {
+.productos .containerProductsMain .equipoContainerMain1 .equipo1, .productos .containerProductsMain .equipoContainerMain1 .equipo2, .productos .containerProductsMain .equipoContainerMain1 .equipo3, .productos .containerProductsMain .equipoContainerMain1 .equipo4, .productos .containerProductsMain .equipoContainerMain1 .equipo5, .productos .containerProductsMain .equipoContainerMain1 .equipo6, .productos .containerProductsMain .equipoContainerMain1 .equipo7, .productos .containerProductsMain .equipoContainerMain2 .equipo1, .productos .containerProductsMain .equipoContainerMain2 .equipo2, .productos .containerProductsMain .equipoContainerMain2 .equipo3, .productos .containerProductsMain .equipoContainerMain2 .equipo4, .productos .containerProductsMain .equipoContainerMain2 .equipo5, .productos .containerProductsMain .equipoContainerMain2 .equipo6, .productos .containerProductsMain .equipoContainerMain2 .equipo7, .productos .containerProductsMain .equipoContainerMain3 .equipo1, .productos .containerProductsMain .equipoContainerMain3 .equipo2, .productos .containerProductsMain .equipoContainerMain3 .equipo3, .productos .containerProductsMain .equipoContainerMain3 .equipo4, .productos .containerProductsMain .equipoContainerMain3 .equipo5, .productos .containerProductsMain .equipoContainerMain3 .equipo6, .productos .containerProductsMain .equipoContainerMain3 .equipo7, .productos .containerProductsMain .equipoContainerMain4 .equipo1, .productos .containerProductsMain .equipoContainerMain4 .equipo2, .productos .containerProductsMain .equipoContainerMain4 .equipo3, .productos .containerProductsMain .equipoContainerMain4 .equipo4, .productos .containerProductsMain .equipoContainerMain4 .equipo5, .productos .containerProductsMain .equipoContainerMain4 .equipo6, .productos .containerProductsMain .equipoContainerMain4 .equipo7, .productos .containerProductsMain .equipoContainerMain5 .equipo1, .productos .containerProductsMain .equipoContainerMain5 .equipo2, .productos .containerProductsMain .equipoContainerMain5 .equipo3, .productos .containerProductsMain .equipoContainerMain5 .equipo4, .productos .containerProductsMain .equipoContainerMain5 .equipo5, .productos .containerProductsMain .equipoContainerMain5 .equipo6, .productos .containerProductsMain .equipoContainerMain5 .equipo7, .productos .containerProductsMain .equipoContainerMain6 .equipo1, .productos .containerProductsMain .equipoContainerMain6 .equipo2, .productos .containerProductsMain .equipoContainerMain6 .equipo3, .productos .containerProductsMain .equipoContainerMain6 .equipo4, .productos .containerProductsMain .equipoContainerMain6 .equipo5, .productos .containerProductsMain .equipoContainerMain6 .equipo6, .productos .containerProductsMain .equipoContainerMain6 .equipo7, .productos .containerProductsMain .equipoContainerMain7 .equipo1, .productos .containerProductsMain .equipoContainerMain7 .equipo2, .productos .containerProductsMain .equipoContainerMain7 .equipo3, .productos .containerProductsMain .equipoContainerMain7 .equipo4, .productos .containerProductsMain .equipoContainerMain7 .equipo5, .productos .containerProductsMain .equipoContainerMain7 .equipo6, .productos .containerProductsMain .equipoContainerMain7 .equipo7 {
   position: relative;
   display: flex;
   justify-content: center;
@@ -194,15 +194,15 @@
   height: 100%;
   width: 30%;
 }
-.productos .containerProductsMain .equipoContainerMain .equipo img {
+.productos .containerProductsMain .equipoContainerMain1 .equipo1 img, .productos .containerProductsMain .equipoContainerMain1 .equipo2 img, .productos .containerProductsMain .equipoContainerMain1 .equipo3 img, .productos .containerProductsMain .equipoContainerMain1 .equipo4 img, .productos .containerProductsMain .equipoContainerMain1 .equipo5 img, .productos .containerProductsMain .equipoContainerMain1 .equipo6 img, .productos .containerProductsMain .equipoContainerMain1 .equipo7 img, .productos .containerProductsMain .equipoContainerMain2 .equipo1 img, .productos .containerProductsMain .equipoContainerMain2 .equipo2 img, .productos .containerProductsMain .equipoContainerMain2 .equipo3 img, .productos .containerProductsMain .equipoContainerMain2 .equipo4 img, .productos .containerProductsMain .equipoContainerMain2 .equipo5 img, .productos .containerProductsMain .equipoContainerMain2 .equipo6 img, .productos .containerProductsMain .equipoContainerMain2 .equipo7 img, .productos .containerProductsMain .equipoContainerMain3 .equipo1 img, .productos .containerProductsMain .equipoContainerMain3 .equipo2 img, .productos .containerProductsMain .equipoContainerMain3 .equipo3 img, .productos .containerProductsMain .equipoContainerMain3 .equipo4 img, .productos .containerProductsMain .equipoContainerMain3 .equipo5 img, .productos .containerProductsMain .equipoContainerMain3 .equipo6 img, .productos .containerProductsMain .equipoContainerMain3 .equipo7 img, .productos .containerProductsMain .equipoContainerMain4 .equipo1 img, .productos .containerProductsMain .equipoContainerMain4 .equipo2 img, .productos .containerProductsMain .equipoContainerMain4 .equipo3 img, .productos .containerProductsMain .equipoContainerMain4 .equipo4 img, .productos .containerProductsMain .equipoContainerMain4 .equipo5 img, .productos .containerProductsMain .equipoContainerMain4 .equipo6 img, .productos .containerProductsMain .equipoContainerMain4 .equipo7 img, .productos .containerProductsMain .equipoContainerMain5 .equipo1 img, .productos .containerProductsMain .equipoContainerMain5 .equipo2 img, .productos .containerProductsMain .equipoContainerMain5 .equipo3 img, .productos .containerProductsMain .equipoContainerMain5 .equipo4 img, .productos .containerProductsMain .equipoContainerMain5 .equipo5 img, .productos .containerProductsMain .equipoContainerMain5 .equipo6 img, .productos .containerProductsMain .equipoContainerMain5 .equipo7 img, .productos .containerProductsMain .equipoContainerMain6 .equipo1 img, .productos .containerProductsMain .equipoContainerMain6 .equipo2 img, .productos .containerProductsMain .equipoContainerMain6 .equipo3 img, .productos .containerProductsMain .equipoContainerMain6 .equipo4 img, .productos .containerProductsMain .equipoContainerMain6 .equipo5 img, .productos .containerProductsMain .equipoContainerMain6 .equipo6 img, .productos .containerProductsMain .equipoContainerMain6 .equipo7 img, .productos .containerProductsMain .equipoContainerMain7 .equipo1 img, .productos .containerProductsMain .equipoContainerMain7 .equipo2 img, .productos .containerProductsMain .equipoContainerMain7 .equipo3 img, .productos .containerProductsMain .equipoContainerMain7 .equipo4 img, .productos .containerProductsMain .equipoContainerMain7 .equipo5 img, .productos .containerProductsMain .equipoContainerMain7 .equipo6 img, .productos .containerProductsMain .equipoContainerMain7 .equipo7 img {
   height: 75%;
   transition: 0.3s ease-in-out;
 }
-.productos .containerProductsMain .equipoContainerMain .equipo img:hover {
+.productos .containerProductsMain .equipoContainerMain1 .equipo1 img:hover, .productos .containerProductsMain .equipoContainerMain1 .equipo2 img:hover, .productos .containerProductsMain .equipoContainerMain1 .equipo3 img:hover, .productos .containerProductsMain .equipoContainerMain1 .equipo4 img:hover, .productos .containerProductsMain .equipoContainerMain1 .equipo5 img:hover, .productos .containerProductsMain .equipoContainerMain1 .equipo6 img:hover, .productos .containerProductsMain .equipoContainerMain1 .equipo7 img:hover, .productos .containerProductsMain .equipoContainerMain2 .equipo1 img:hover, .productos .containerProductsMain .equipoContainerMain2 .equipo2 img:hover, .productos .containerProductsMain .equipoContainerMain2 .equipo3 img:hover, .productos .containerProductsMain .equipoContainerMain2 .equipo4 img:hover, .productos .containerProductsMain .equipoContainerMain2 .equipo5 img:hover, .productos .containerProductsMain .equipoContainerMain2 .equipo6 img:hover, .productos .containerProductsMain .equipoContainerMain2 .equipo7 img:hover, .productos .containerProductsMain .equipoContainerMain3 .equipo1 img:hover, .productos .containerProductsMain .equipoContainerMain3 .equipo2 img:hover, .productos .containerProductsMain .equipoContainerMain3 .equipo3 img:hover, .productos .containerProductsMain .equipoContainerMain3 .equipo4 img:hover, .productos .containerProductsMain .equipoContainerMain3 .equipo5 img:hover, .productos .containerProductsMain .equipoContainerMain3 .equipo6 img:hover, .productos .containerProductsMain .equipoContainerMain3 .equipo7 img:hover, .productos .containerProductsMain .equipoContainerMain4 .equipo1 img:hover, .productos .containerProductsMain .equipoContainerMain4 .equipo2 img:hover, .productos .containerProductsMain .equipoContainerMain4 .equipo3 img:hover, .productos .containerProductsMain .equipoContainerMain4 .equipo4 img:hover, .productos .containerProductsMain .equipoContainerMain4 .equipo5 img:hover, .productos .containerProductsMain .equipoContainerMain4 .equipo6 img:hover, .productos .containerProductsMain .equipoContainerMain4 .equipo7 img:hover, .productos .containerProductsMain .equipoContainerMain5 .equipo1 img:hover, .productos .containerProductsMain .equipoContainerMain5 .equipo2 img:hover, .productos .containerProductsMain .equipoContainerMain5 .equipo3 img:hover, .productos .containerProductsMain .equipoContainerMain5 .equipo4 img:hover, .productos .containerProductsMain .equipoContainerMain5 .equipo5 img:hover, .productos .containerProductsMain .equipoContainerMain5 .equipo6 img:hover, .productos .containerProductsMain .equipoContainerMain5 .equipo7 img:hover, .productos .containerProductsMain .equipoContainerMain6 .equipo1 img:hover, .productos .containerProductsMain .equipoContainerMain6 .equipo2 img:hover, .productos .containerProductsMain .equipoContainerMain6 .equipo3 img:hover, .productos .containerProductsMain .equipoContainerMain6 .equipo4 img:hover, .productos .containerProductsMain .equipoContainerMain6 .equipo5 img:hover, .productos .containerProductsMain .equipoContainerMain6 .equipo6 img:hover, .productos .containerProductsMain .equipoContainerMain6 .equipo7 img:hover, .productos .containerProductsMain .equipoContainerMain7 .equipo1 img:hover, .productos .containerProductsMain .equipoContainerMain7 .equipo2 img:hover, .productos .containerProductsMain .equipoContainerMain7 .equipo3 img:hover, .productos .containerProductsMain .equipoContainerMain7 .equipo4 img:hover, .productos .containerProductsMain .equipoContainerMain7 .equipo5 img:hover, .productos .containerProductsMain .equipoContainerMain7 .equipo6 img:hover, .productos .containerProductsMain .equipoContainerMain7 .equipo7 img:hover {
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
 }
-.productos .containerProductsMain .equipoContainerMain .equipoDescription {
+.productos .containerProductsMain .equipoContainerMain1 .equipoDescription1, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription2, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription3, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription4, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription5, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription6, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription7, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription1, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription2, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription3, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription4, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription5, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription6, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription7, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription1, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription2, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription3, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription4, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription5, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription6, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription7, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription1, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription2, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription3, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription4, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription5, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription6, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription7, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription1, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription2, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription3, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription4, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription5, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription6, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription7, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription1, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription2, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription3, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription4, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription5, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription6, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription7, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription1, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription2, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription3, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription4, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription5, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription6, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription7 {
   position: relative;
   display: flex;
   justify-content: center;
@@ -211,21 +211,28 @@
   height: 100%;
   width: 40%;
 }
-.productos .containerProductsMain .equipoContainerMain .equipoDescription h3 {
+.productos .containerProductsMain .equipoContainerMain1 .equipoDescription1 h3, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription2 h3, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription3 h3, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription4 h3, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription5 h3, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription6 h3, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription7 h3, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription1 h3, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription2 h3, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription3 h3, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription4 h3, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription5 h3, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription6 h3, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription7 h3, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription1 h3, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription2 h3, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription3 h3, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription4 h3, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription5 h3, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription6 h3, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription7 h3, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription1 h3, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription2 h3, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription3 h3, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription4 h3, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription5 h3, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription6 h3, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription7 h3, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription1 h3, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription2 h3, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription3 h3, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription4 h3, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription5 h3, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription6 h3, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription7 h3, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription1 h3, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription2 h3, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription3 h3, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription4 h3, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription5 h3, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription6 h3, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription7 h3, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription1 h3, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription2 h3, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription3 h3, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription4 h3, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription5 h3, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription6 h3, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription7 h3 {
   font-family: "MontserratExtraBold" !important;
   color: var(--acilColor);
   font-size: 1.4em;
 }
-.productos .containerProductsMain .equipoContainerMain .equipoDescription span {
+.productos .containerProductsMain .equipoContainerMain1 .equipoDescription1 span, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription2 span, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription3 span, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription4 span, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription5 span, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription6 span, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription7 span, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription1 span, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription2 span, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription3 span, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription4 span, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription5 span, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription6 span, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription7 span, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription1 span, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription2 span, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription3 span, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription4 span, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription5 span, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription6 span, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription7 span, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription1 span, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription2 span, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription3 span, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription4 span, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription5 span, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription6 span, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription7 span, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription1 span, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription2 span, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription3 span, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription4 span, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription5 span, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription6 span, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription7 span, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription1 span, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription2 span, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription3 span, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription4 span, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription5 span, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription6 span, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription7 span, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription1 span, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription2 span, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription3 span, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription4 span, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription5 span, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription6 span, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription7 span {
   font-family: "MontserratBold" !important;
   font-size: 1em;
+}
+.productos .containerProductsMain .lineTitle3 {
+  margin-top: 50px;
+  height: 20px;
+  width: 100%;
+  background: rgb(224, 91, 25);
+  background: linear-gradient(145deg, rgb(224, 91, 25) 0%, rgb(255, 118, 38) 45%, rgb(255, 164, 0) 100%);
 }
 .productos .containerProductsMain .containerProducts2 {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 40px;
   height: 225px;
   width: 100%;
   background-color: rgb(255, 164, 0);
@@ -590,33 +597,47 @@
   .formFondo {
     position: relative;
   }
-  .formFondo .containerContactanos {
-    background-position-x: right;
-    height: 780px;
+  .formFondo .containerSoluciones {
+    position: relative;
+    background-image: url(../images/soluciones/fondo.jpg);
+    background-size: cover;
+    height: 650px;
+    width: 100%;
   }
-  .formFondo .formContactanos {
-    height: 600px;
-    width: 90vw;
-    top: 40px;
+  .formFondo .formSoluciones {
+    position: absolute;
+    height: 630px;
+    width: 90% !important;
+    background-color: rgb(242, 242, 242);
+    border-radius: 25px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    top: 10px;
     right: 20px;
   }
-  .formFondo .formContactanos form .title {
+  .formFondo .formSoluciones form .title {
     height: 110px;
+    width: 100%;
+    background-color: var(--acilColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .formFondo .formContactanos form .title span {
-    font-size: 1.2em;
+  .formFondo .formSoluciones form .title span {
+    font-size: 1.1em;
   }
-  .formFondo .formContactanos form .containerForm {
+  .formFondo .formSoluciones form .containerForm {
     padding: 10px 40px;
   }
-  .formFondo .formContactanos form .containerForm div {
-    margin-top: 5px;
+  .formFondo .formSoluciones form .containerForm div {
+    margin-top: 10px;
   }
-  .formFondo .formContactanos form .containerForm div label {
+  .formFondo .formSoluciones form .containerForm div label {
     font-family: "MontserratBold" !important;
-    font-size: 0.75em;
+    font-size: 0.8em;
   }
-  .formFondo .formContactanos form .containerForm div .inputCamp {
+  .formFondo .formSoluciones form .containerForm div .inputCamp {
     margin-top: 5px;
     width: 100%;
     border: none;
@@ -626,49 +647,559 @@
     padding: 8px;
     transition: 0.3s ease-in-out;
   }
-  .formFondo .formContactanos form .containerForm div .inputCamp:focus {
+  .formFondo .formSoluciones form .containerForm div .inputCamp:focus {
     transition: 0.3s ease-in-out;
     outline: 1px solid rgba(226, 92, 25, 0.431372549);
   }
-  .formFondo .formContactanos form .containerForm div .inputFile {
+  .formFondo .formSoluciones form .containerForm div .inputFile {
     display: none;
   }
-  .formFondo .formContactanos form .containerForm div .subirContainer {
+  .formFondo .formSoluciones form .containerForm div .subirContainer {
     width: 100%;
+    transition: 0.3s ease-in-out;
   }
-  .formFondo .formContactanos form .containerForm div .subirContainer img {
+  .formFondo .formSoluciones form .containerForm div .subirContainer img {
     height: 65px;
   }
-  .formFondo .formContactanos form .containerForm div .pymeResidencial {
-    margin-top: 20px;
+  .formFondo .formSoluciones form .containerForm div .subirContainer:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease-in-out;
+  }
+  .formFondo .formSoluciones form .containerForm div .pymeResidencial {
+    margin-top: 40px;
     display: flex !important;
     justify-content: start !important;
     align-items: center !important;
     gap: 20px;
   }
-  .formFondo .formContactanos form .containerForm div .pymeResidencial span {
+  .formFondo .formSoluciones form .containerForm div .pymeResidencial span {
     font-family: "MontserratBold" !important;
-    font-size: 0.5em;
+    font-size: 0.6em;
   }
-  .formFondo .formContactanos form .containerForm div .terminosContainer {
+  .formFondo .formSoluciones form .containerForm div .terminosContainer {
     margin-top: 15px;
+    margin-bottom: 20px;
     display: flex !important;
     justify-content: start !important;
     align-items: center !important;
     gap: 20px;
   }
-  .formFondo .formContactanos form .containerForm div .terminosContainer span {
+  .formFondo .formSoluciones form .containerForm div .terminosContainer span {
     font-family: "MontserratBold" !important;
-    font-size: 0.5em;
+    font-size: 0.6em;
   }
-  .formFondo .formContactanos form .containerForm div .btnEnviarContainer {
-    margin-top: 30px;
+  .formFondo .formSoluciones form .containerForm div .btnEnviarContainer {
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s ease-in-out;
   }
-  .formFondo .formContactanos form .containerForm div .btnEnviarContainer img {
+  .formFondo .formSoluciones form .containerForm div .btnEnviarContainer img {
     width: 300px;
+  }
+  .formFondo .formSoluciones form .containerForm div .btnEnviarContainer:hover {
+    filter: drop-shadow(3px 3px 7px rgba(255, 166, 0, 0.75));
+    transition: 0.3s ease-in-out;
+  }
+  .productos {
+    position: relative;
+  }
+  .productos .containerProductsMain {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .productos .containerProductsMain .barraInicio {
+    position: relative;
+    height: 5px;
+    width: 100%;
+    background: rgb(224, 91, 25);
+    background: linear-gradient(145deg, rgb(224, 91, 25) 0%, rgb(255, 118, 38) 45%, rgb(255, 164, 0) 100%);
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .productos .containerProductsMain .titleSuscription {
+    font-family: "MontserratExtraBold" !important;
+    color: var(--acilColor);
+  }
+  .productos .containerProductsMain .lineTitle {
+    height: 1px;
+    width: 80vw !important;
+    border: 1px solid var(--acilColor) !important;
+  }
+  .productos .containerProductsMain .lineTitle2 {
+    height: 20px;
+    width: 100%;
+    background: rgb(224, 91, 25);
+    background: linear-gradient(145deg, rgb(224, 91, 25) 0%, rgb(255, 118, 38) 45%, rgb(255, 164, 0) 100%);
+  }
+  .productos .containerProductsMain .containerProducts {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    height: 800px;
+    width: 100%;
+    background-color: var(--acilColor);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25), -5px -5px 15px rgba(0, 0, 0, 0.25);
+  }
+  .productos .containerProductsMain .containerProducts .containerCard {
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 135px;
+  }
+  .productos .containerProductsMain .containerProducts .containerCard img {
+    height: 100px;
+    transition: 0.3s ease-in-out;
+  }
+  .productos .containerProductsMain .containerProducts .containerCard img:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease-in-out;
+    filter: drop-shadow(3px 3px 7px rgba(255, 255, 255, 0.3));
+  }
+  .productos .containerProductsMain .containerProducts .containerCard p {
+    margin-top: 10px;
+    color: white;
+    font-family: "MontserratRegular" !important;
+    font-size: 0.75em;
+  }
+  .productos .containerProductsMain .equipoContainerMain1, .productos .containerProductsMain .equipoContainerMain2, .productos .containerProductsMain .equipoContainerMain3, .productos .containerProductsMain .equipoContainerMain4, .productos .containerProductsMain .equipoContainerMain5, .productos .containerProductsMain .equipoContainerMain6, .productos .containerProductsMain .equipoContainerMain7 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 300px;
+  }
+  .productos .containerProductsMain .equipoContainerMain1 .equipo1, .productos .containerProductsMain .equipoContainerMain1 .equipo2, .productos .containerProductsMain .equipoContainerMain1 .equipo3, .productos .containerProductsMain .equipoContainerMain1 .equipo4, .productos .containerProductsMain .equipoContainerMain1 .equipo5, .productos .containerProductsMain .equipoContainerMain1 .equipo6, .productos .containerProductsMain .equipoContainerMain1 .equipo7, .productos .containerProductsMain .equipoContainerMain2 .equipo1, .productos .containerProductsMain .equipoContainerMain2 .equipo2, .productos .containerProductsMain .equipoContainerMain2 .equipo3, .productos .containerProductsMain .equipoContainerMain2 .equipo4, .productos .containerProductsMain .equipoContainerMain2 .equipo5, .productos .containerProductsMain .equipoContainerMain2 .equipo6, .productos .containerProductsMain .equipoContainerMain2 .equipo7, .productos .containerProductsMain .equipoContainerMain3 .equipo1, .productos .containerProductsMain .equipoContainerMain3 .equipo2, .productos .containerProductsMain .equipoContainerMain3 .equipo3, .productos .containerProductsMain .equipoContainerMain3 .equipo4, .productos .containerProductsMain .equipoContainerMain3 .equipo5, .productos .containerProductsMain .equipoContainerMain3 .equipo6, .productos .containerProductsMain .equipoContainerMain3 .equipo7, .productos .containerProductsMain .equipoContainerMain4 .equipo1, .productos .containerProductsMain .equipoContainerMain4 .equipo2, .productos .containerProductsMain .equipoContainerMain4 .equipo3, .productos .containerProductsMain .equipoContainerMain4 .equipo4, .productos .containerProductsMain .equipoContainerMain4 .equipo5, .productos .containerProductsMain .equipoContainerMain4 .equipo6, .productos .containerProductsMain .equipoContainerMain4 .equipo7, .productos .containerProductsMain .equipoContainerMain5 .equipo1, .productos .containerProductsMain .equipoContainerMain5 .equipo2, .productos .containerProductsMain .equipoContainerMain5 .equipo3, .productos .containerProductsMain .equipoContainerMain5 .equipo4, .productos .containerProductsMain .equipoContainerMain5 .equipo5, .productos .containerProductsMain .equipoContainerMain5 .equipo6, .productos .containerProductsMain .equipoContainerMain5 .equipo7, .productos .containerProductsMain .equipoContainerMain6 .equipo1, .productos .containerProductsMain .equipoContainerMain6 .equipo2, .productos .containerProductsMain .equipoContainerMain6 .equipo3, .productos .containerProductsMain .equipoContainerMain6 .equipo4, .productos .containerProductsMain .equipoContainerMain6 .equipo5, .productos .containerProductsMain .equipoContainerMain6 .equipo6, .productos .containerProductsMain .equipoContainerMain6 .equipo7, .productos .containerProductsMain .equipoContainerMain7 .equipo1, .productos .containerProductsMain .equipoContainerMain7 .equipo2, .productos .containerProductsMain .equipoContainerMain7 .equipo3, .productos .containerProductsMain .equipoContainerMain7 .equipo4, .productos .containerProductsMain .equipoContainerMain7 .equipo5, .productos .containerProductsMain .equipoContainerMain7 .equipo6, .productos .containerProductsMain .equipoContainerMain7 .equipo7 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+  }
+  .productos .containerProductsMain .equipoContainerMain1 .equipo1 img, .productos .containerProductsMain .equipoContainerMain1 .equipo2 img, .productos .containerProductsMain .equipoContainerMain1 .equipo3 img, .productos .containerProductsMain .equipoContainerMain1 .equipo4 img, .productos .containerProductsMain .equipoContainerMain1 .equipo5 img, .productos .containerProductsMain .equipoContainerMain1 .equipo6 img, .productos .containerProductsMain .equipoContainerMain1 .equipo7 img, .productos .containerProductsMain .equipoContainerMain2 .equipo1 img, .productos .containerProductsMain .equipoContainerMain2 .equipo2 img, .productos .containerProductsMain .equipoContainerMain2 .equipo3 img, .productos .containerProductsMain .equipoContainerMain2 .equipo4 img, .productos .containerProductsMain .equipoContainerMain2 .equipo5 img, .productos .containerProductsMain .equipoContainerMain2 .equipo6 img, .productos .containerProductsMain .equipoContainerMain2 .equipo7 img, .productos .containerProductsMain .equipoContainerMain3 .equipo1 img, .productos .containerProductsMain .equipoContainerMain3 .equipo2 img, .productos .containerProductsMain .equipoContainerMain3 .equipo3 img, .productos .containerProductsMain .equipoContainerMain3 .equipo4 img, .productos .containerProductsMain .equipoContainerMain3 .equipo5 img, .productos .containerProductsMain .equipoContainerMain3 .equipo6 img, .productos .containerProductsMain .equipoContainerMain3 .equipo7 img, .productos .containerProductsMain .equipoContainerMain4 .equipo1 img, .productos .containerProductsMain .equipoContainerMain4 .equipo2 img, .productos .containerProductsMain .equipoContainerMain4 .equipo3 img, .productos .containerProductsMain .equipoContainerMain4 .equipo4 img, .productos .containerProductsMain .equipoContainerMain4 .equipo5 img, .productos .containerProductsMain .equipoContainerMain4 .equipo6 img, .productos .containerProductsMain .equipoContainerMain4 .equipo7 img, .productos .containerProductsMain .equipoContainerMain5 .equipo1 img, .productos .containerProductsMain .equipoContainerMain5 .equipo2 img, .productos .containerProductsMain .equipoContainerMain5 .equipo3 img, .productos .containerProductsMain .equipoContainerMain5 .equipo4 img, .productos .containerProductsMain .equipoContainerMain5 .equipo5 img, .productos .containerProductsMain .equipoContainerMain5 .equipo6 img, .productos .containerProductsMain .equipoContainerMain5 .equipo7 img, .productos .containerProductsMain .equipoContainerMain6 .equipo1 img, .productos .containerProductsMain .equipoContainerMain6 .equipo2 img, .productos .containerProductsMain .equipoContainerMain6 .equipo3 img, .productos .containerProductsMain .equipoContainerMain6 .equipo4 img, .productos .containerProductsMain .equipoContainerMain6 .equipo5 img, .productos .containerProductsMain .equipoContainerMain6 .equipo6 img, .productos .containerProductsMain .equipoContainerMain6 .equipo7 img, .productos .containerProductsMain .equipoContainerMain7 .equipo1 img, .productos .containerProductsMain .equipoContainerMain7 .equipo2 img, .productos .containerProductsMain .equipoContainerMain7 .equipo3 img, .productos .containerProductsMain .equipoContainerMain7 .equipo4 img, .productos .containerProductsMain .equipoContainerMain7 .equipo5 img, .productos .containerProductsMain .equipoContainerMain7 .equipo6 img, .productos .containerProductsMain .equipoContainerMain7 .equipo7 img {
+    height: 75%;
+    transition: 0.3s ease-in-out;
+  }
+  .productos .containerProductsMain .equipoContainerMain1 .equipo1 img:hover, .productos .containerProductsMain .equipoContainerMain1 .equipo2 img:hover, .productos .containerProductsMain .equipoContainerMain1 .equipo3 img:hover, .productos .containerProductsMain .equipoContainerMain1 .equipo4 img:hover, .productos .containerProductsMain .equipoContainerMain1 .equipo5 img:hover, .productos .containerProductsMain .equipoContainerMain1 .equipo6 img:hover, .productos .containerProductsMain .equipoContainerMain1 .equipo7 img:hover, .productos .containerProductsMain .equipoContainerMain2 .equipo1 img:hover, .productos .containerProductsMain .equipoContainerMain2 .equipo2 img:hover, .productos .containerProductsMain .equipoContainerMain2 .equipo3 img:hover, .productos .containerProductsMain .equipoContainerMain2 .equipo4 img:hover, .productos .containerProductsMain .equipoContainerMain2 .equipo5 img:hover, .productos .containerProductsMain .equipoContainerMain2 .equipo6 img:hover, .productos .containerProductsMain .equipoContainerMain2 .equipo7 img:hover, .productos .containerProductsMain .equipoContainerMain3 .equipo1 img:hover, .productos .containerProductsMain .equipoContainerMain3 .equipo2 img:hover, .productos .containerProductsMain .equipoContainerMain3 .equipo3 img:hover, .productos .containerProductsMain .equipoContainerMain3 .equipo4 img:hover, .productos .containerProductsMain .equipoContainerMain3 .equipo5 img:hover, .productos .containerProductsMain .equipoContainerMain3 .equipo6 img:hover, .productos .containerProductsMain .equipoContainerMain3 .equipo7 img:hover, .productos .containerProductsMain .equipoContainerMain4 .equipo1 img:hover, .productos .containerProductsMain .equipoContainerMain4 .equipo2 img:hover, .productos .containerProductsMain .equipoContainerMain4 .equipo3 img:hover, .productos .containerProductsMain .equipoContainerMain4 .equipo4 img:hover, .productos .containerProductsMain .equipoContainerMain4 .equipo5 img:hover, .productos .containerProductsMain .equipoContainerMain4 .equipo6 img:hover, .productos .containerProductsMain .equipoContainerMain4 .equipo7 img:hover, .productos .containerProductsMain .equipoContainerMain5 .equipo1 img:hover, .productos .containerProductsMain .equipoContainerMain5 .equipo2 img:hover, .productos .containerProductsMain .equipoContainerMain5 .equipo3 img:hover, .productos .containerProductsMain .equipoContainerMain5 .equipo4 img:hover, .productos .containerProductsMain .equipoContainerMain5 .equipo5 img:hover, .productos .containerProductsMain .equipoContainerMain5 .equipo6 img:hover, .productos .containerProductsMain .equipoContainerMain5 .equipo7 img:hover, .productos .containerProductsMain .equipoContainerMain6 .equipo1 img:hover, .productos .containerProductsMain .equipoContainerMain6 .equipo2 img:hover, .productos .containerProductsMain .equipoContainerMain6 .equipo3 img:hover, .productos .containerProductsMain .equipoContainerMain6 .equipo4 img:hover, .productos .containerProductsMain .equipoContainerMain6 .equipo5 img:hover, .productos .containerProductsMain .equipoContainerMain6 .equipo6 img:hover, .productos .containerProductsMain .equipoContainerMain6 .equipo7 img:hover, .productos .containerProductsMain .equipoContainerMain7 .equipo1 img:hover, .productos .containerProductsMain .equipoContainerMain7 .equipo2 img:hover, .productos .containerProductsMain .equipoContainerMain7 .equipo3 img:hover, .productos .containerProductsMain .equipoContainerMain7 .equipo4 img:hover, .productos .containerProductsMain .equipoContainerMain7 .equipo5 img:hover, .productos .containerProductsMain .equipoContainerMain7 .equipo6 img:hover, .productos .containerProductsMain .equipoContainerMain7 .equipo7 img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+  }
+  .productos .containerProductsMain .equipoContainerMain1 .equipoDescription1, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription2, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription3, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription4, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription5, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription6, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription7, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription1, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription2, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription3, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription4, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription5, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription6, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription7, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription1, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription2, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription3, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription4, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription5, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription6, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription7, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription1, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription2, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription3, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription4, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription5, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription6, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription7, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription1, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription2, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription3, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription4, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription5, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription6, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription7, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription1, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription2, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription3, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription4, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription5, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription6, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription7, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription1, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription2, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription3, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription4, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription5, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription6, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription7 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  .productos .containerProductsMain .equipoContainerMain1 .equipoDescription1 h3, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription2 h3, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription3 h3, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription4 h3, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription5 h3, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription6 h3, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription7 h3, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription1 h3, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription2 h3, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription3 h3, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription4 h3, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription5 h3, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription6 h3, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription7 h3, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription1 h3, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription2 h3, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription3 h3, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription4 h3, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription5 h3, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription6 h3, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription7 h3, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription1 h3, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription2 h3, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription3 h3, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription4 h3, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription5 h3, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription6 h3, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription7 h3, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription1 h3, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription2 h3, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription3 h3, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription4 h3, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription5 h3, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription6 h3, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription7 h3, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription1 h3, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription2 h3, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription3 h3, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription4 h3, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription5 h3, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription6 h3, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription7 h3, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription1 h3, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription2 h3, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription3 h3, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription4 h3, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription5 h3, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription6 h3, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription7 h3 {
+    font-family: "MontserratExtraBold" !important;
+    color: var(--acilColor);
+    font-size: 1.4em;
+  }
+  .productos .containerProductsMain .equipoContainerMain1 .equipoDescription1 span, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription2 span, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription3 span, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription4 span, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription5 span, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription6 span, .productos .containerProductsMain .equipoContainerMain1 .equipoDescription7 span, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription1 span, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription2 span, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription3 span, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription4 span, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription5 span, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription6 span, .productos .containerProductsMain .equipoContainerMain2 .equipoDescription7 span, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription1 span, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription2 span, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription3 span, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription4 span, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription5 span, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription6 span, .productos .containerProductsMain .equipoContainerMain3 .equipoDescription7 span, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription1 span, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription2 span, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription3 span, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription4 span, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription5 span, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription6 span, .productos .containerProductsMain .equipoContainerMain4 .equipoDescription7 span, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription1 span, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription2 span, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription3 span, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription4 span, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription5 span, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription6 span, .productos .containerProductsMain .equipoContainerMain5 .equipoDescription7 span, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription1 span, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription2 span, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription3 span, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription4 span, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription5 span, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription6 span, .productos .containerProductsMain .equipoContainerMain6 .equipoDescription7 span, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription1 span, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription2 span, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription3 span, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription4 span, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription5 span, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription6 span, .productos .containerProductsMain .equipoContainerMain7 .equipoDescription7 span {
+    font-family: "MontserratBold" !important;
+    font-size: 1em;
+  }
+  .productos .containerProductsMain .equipoContainerMain2, .productos .containerProductsMain .equipoContainerMain3, .productos .containerProductsMain .equipoContainerMain4, .productos .containerProductsMain .equipoContainerMain6, .productos .containerProductsMain .equipoContainerMain7 {
+    margin-top: 250px;
+  }
+  .productos .containerProductsMain .lineTitle3 {
+    margin-top: 300px;
+    height: 20px;
+    width: 100%;
+    background: rgb(224, 91, 25);
+    background: linear-gradient(145deg, rgb(224, 91, 25) 0%, rgb(255, 118, 38) 45%, rgb(255, 164, 0) 100%);
+  }
+  .productos .containerProductsMain .titleSuscription2 {
+    font-family: "MontserratExtraBold" !important;
+    color: var(--acilColor);
+  }
+  .productos .containerProductsMain .containerProducts2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(255, 164, 0);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25), -5px -5px 15px rgba(0, 0, 0, 0.25);
+  }
+  .productos .containerProductsMain .containerProducts2 .containerCard2 {
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 150px;
+  }
+  .productos .containerProductsMain .containerProducts2 .containerCard2 img {
+    height: 100px;
+    transition: 0.3s ease-in-out;
+  }
+  .productos .containerProductsMain .containerProducts2 .containerCard2 img:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease-in-out;
+    filter: drop-shadow(3px 3px 7px rgba(255, 255, 255, 0.3));
+  }
+  .productos .containerProductsMain .containerProducts2 .containerCard2 p {
+    margin-top: 10px;
+    color: white;
+    font-family: "MontserratRegular" !important;
+    font-size: 0.65em;
+  }
+  .productos .containerProductsMain .containerProducts2 .camarasOperacion {
+    margin-top: 45px;
+  }
+  .plataformas {
+    display: none;
+    margin-top: -20px;
+  }
+  .plataformas .containerPlataformsMain .titleSuscription {
+    font-family: "MontserratExtraBold" !important;
+    color: var(--acilColor);
+  }
+  .plataformas .containerPlataformsMain .lineTitle {
+    height: 1px;
+    width: 100% !important;
+    border: 1px solid var(--acilColor) !important;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms1 {
+    position: relative;
+    margin-top: 50px;
+    height: 750px;
+    width: 100%;
+    background-image: url(../images/plataformas/Acil\ Contigo.jpg);
+    background-size: cover;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms1 .containerPlataformsTxt1 {
+    display: none;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0 !important;
+    right: 150px;
+    height: 100%;
+    width: 50%;
+    z-index: 1000;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms1 .containerPlataformsTxt1 img {
+    height: 125px;
+    width: 125px;
+    filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.9));
+    transition: 0.3s ease-in-out;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms1 .containerPlataformsTxt1 img:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease-in-out;
+    filter: drop-shadow(5px 5px 7px rgba(255, 255, 255, 0.05));
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms1 .containerPlataformsTxt1 h3 {
+    margin-top: 25px;
+    font-family: "MontserratExtraBold" !important;
+    font-size: 4em;
+    color: rgb(240, 6, 6);
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms1 .containerPlataformsTxt1 .containerPlataformsTxtDescription1 {
+    position: relative;
+    margin-top: 35px;
+    width: 80%;
+    display: none;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms1 .containerPlataformsTxt1 .containerPlataformsTxtDescription1 p {
+    font-family: "MontserratRegular" !important;
+    font-size: 1.35em;
+    color: white;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms1 .containerPlataformsTxt1 .apps1 {
+    margin-top: 75px;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms2 {
+    position: relative;
+    margin-top: 225px;
+    height: 750px;
+    width: 100%;
+    background-image: url(../images/plataformas/Acil\ On\ Time.jpg);
+    background-size: cover;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms2 .containerPlataformsTxt2 {
+    display: none;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 150px;
+    height: 100%;
+    width: 50%;
+    z-index: 1000;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms2 .containerPlataformsTxt2 img {
+    margin-top: -100px;
+    height: 125px;
+    width: 125px;
+    filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.9));
+    transition: 0.3s ease-in-out;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms2 .containerPlataformsTxt2 img:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease-in-out;
+    filter: drop-shadow(5px 5px 7px rgba(255, 255, 255, 0.05));
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms2 .containerPlataformsTxt2 h3 {
+    margin-top: 25px;
+    font-family: "MontserratExtraBold" !important;
+    font-size: 4em;
+    color: white;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms2 .containerPlataformsTxt2 .containerPlataformsTxtDescription2 {
+    position: relative;
+    margin-top: 35px;
+    width: 80%;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms2 .containerPlataformsTxt2 .containerPlataformsTxtDescription2 p {
+    font-family: "MontserratRegular" !important;
+    font-size: 1.35em;
+    color: white;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms2 .containerPlataformsTxt2 .apps2 {
+    margin-top: 75px;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms3 {
+    position: relative;
+    margin-top: 25px;
+    height: 750px;
+    width: 100%;
+    background-image: url(../images/plataformas/Acil\ Clubs.jpg);
+    background-size: cover;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms3 .containerPlataformsTxt3 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    right: 150px;
+    height: 100%;
+    width: 50%;
+    z-index: 1000;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms3 .containerPlataformsTxt3 img {
+    margin-top: -100px;
+    height: 125px;
+    width: 125px;
+    filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.9));
+    transition: 0.3s ease-in-out;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms3 .containerPlataformsTxt3 img:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease-in-out;
+    filter: drop-shadow(5px 5px 7px rgba(255, 255, 255, 0.05));
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms3 .containerPlataformsTxt3 h3 {
+    margin-top: 25px;
+    font-family: "MontserratExtraBold" !important;
+    font-size: 4em;
+    color: white;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms3 .containerPlataformsTxt3 .containerPlataformsTxtDescription3 {
+    position: relative;
+    margin-top: 35px;
+    width: 80%;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms3 .containerPlataformsTxt3 .containerPlataformsTxtDescription3 p {
+    font-family: "MontserratRegular" !important;
+    font-size: 1.35em;
+    color: white;
+  }
+  .plataformas .containerPlataformsMain .containerPlataforms3 .containerPlataformsTxt3 .apps3 {
+    margin-top: 75px;
+  }
+  .plataformas .masInfo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 25px;
+    height: 150px;
+    width: 100%;
+    background: rgb(224, 91, 25);
+    background: linear-gradient(145deg, rgb(224, 91, 25) 0%, rgb(255, 118, 38) 45%, rgb(255, 164, 0) 100%);
+  }
+  .plataformas .masInfo h3 {
+    font-family: "MontserratExtraBold" !important;
+    font-size: 1.5em;
+    color: white;
+  }
+  .plataformas .masInfo img {
+    height: 75px;
+    transition: 0.3s ease-in-out;
+  }
+  .plataformas .masInfo img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    filter: drop-shadow(3px 3px 7px rgba(255, 255, 255, 0.5));
+  }
+  .etiquetasContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    gap: 25px;
+  }
+  .etiquetasContainer .etiqueta1 {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 225px;
+  }
+  .etiquetasContainer .etiqueta1 .etiqueta1Container {
+    position: relative;
+    height: 100%;
+  }
+  .etiquetasContainer .etiqueta1 .etiqueta1Container img {
+    height: 100%;
+  }
+  .etiquetasContainer .etiqueta1 .etiqueta1Container .title1 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: "MontserratBold" !important;
+    font-size: 1.6em;
+    top: 5%;
+    right: 30%;
+  }
+  .etiquetasContainer .etiqueta1 .etiqueta1Container .etiquetaTextContainer {
+    position: absolute;
+    top: 36%;
+    right: 25%;
+    width: 42.5%;
+  }
+  .etiquetasContainer .etiqueta1 .etiqueta1Container .etiquetaTextContainer p {
+    color: rgb(255, 255, 255);
+    font-family: "MontserratRegular" !important;
+    font-size: 0.75em;
+  }
+  .etiquetasContainer .etiqueta1 .etiqueta1Container .etiquetaBtn {
+    position: absolute;
+    top: 35%;
+    right: 2.5%;
+    height: 70px;
+  }
+  .etiquetasContainer .etiqueta2 {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 225px;
+  }
+  .etiquetasContainer .etiqueta2 .etiqueta2Container {
+    position: relative;
+    height: 100%;
+  }
+  .etiquetasContainer .etiqueta2 .etiqueta2Container img {
+    height: 100%;
+  }
+  .etiquetasContainer .etiqueta2 .etiqueta2Container .title2 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: "MontserratBold" !important;
+    font-size: 1.6em;
+    top: 5%;
+    left: 25%;
+  }
+  .etiquetasContainer .etiqueta2 .etiqueta2Container .etiquetaTextContainer2 {
+    position: absolute;
+    top: 36%;
+    left: 28%;
+    width: 42.5%;
+  }
+  .etiquetasContainer .etiqueta2 .etiqueta2Container .etiquetaTextContainer2 p {
+    color: rgb(255, 255, 255);
+    font-family: "MontserratRegular" !important;
+    font-size: 0.75em;
+  }
+  .etiquetasContainer .etiqueta2 .etiqueta2Container .etiquetaBtn2 {
+    position: absolute;
+    top: 35%;
+    left: 2.5%;
+    height: 70px;
+    rotate: 180deg;
+  }
+  .etiquetasContainer .etiqueta3 {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 225px;
+  }
+  .etiquetasContainer .etiqueta3 .etiqueta3Container {
+    position: relative;
+    height: 100%;
+  }
+  .etiquetasContainer .etiqueta3 .etiqueta3Container img {
+    height: 100%;
+  }
+  .etiquetasContainer .etiqueta3 .etiqueta3Container .title3 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: "MontserratBold" !important;
+    font-size: 1.2em;
+    top: 5%;
+    right: 5%;
+  }
+  .etiquetasContainer .etiqueta3 .etiqueta3Container .etiquetaTextContainer3 {
+    position: absolute;
+    top: 36%;
+    right: 25%;
+    width: 40%;
+  }
+  .etiquetasContainer .etiqueta3 .etiqueta3Container .etiquetaTextContainer3 p {
+    color: rgb(255, 255, 255);
+    font-family: "MontserratRegular" !important;
+    font-size: 0.75em;
+  }
+  .etiquetasContainer .etiqueta3 .etiqueta3Container .etiquetaBtn3 {
+    position: absolute;
+    top: 35%;
+    right: 2.5%;
+    height: 70px;
+  }
+  .etiquetasContainer .barraEspacio {
+    width: 80%;
+    height: 8px;
+    background: rgb(224, 91, 25);
+    background: linear-gradient(145deg, rgb(224, 91, 25) 0%, rgb(255, 118, 38) 45%, rgb(255, 164, 0) 100%);
+    margin-top: 40px;
+    margin-bottom: 60px;
   }
 }
 /*************************** SOLUCIONES *******************************//*# sourceMappingURL=soluciones.css.map */
