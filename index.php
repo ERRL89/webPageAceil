@@ -257,7 +257,7 @@
                             <img src="./images/Cámaras.svg" class="img-fluid" alt="">
                         </div>
                         <div class="imgCaracteristicas">
-                            <img src="./images/Casa.png" class="img-fluid" alt="">
+                            <img src="./images/Casa.svg" class="img-fluid" alt="">
                         </div>
                         <div class="imgCaracteristicas">
                             <img src="./images/Alarmas.svg" class="img-fluid" alt="">
