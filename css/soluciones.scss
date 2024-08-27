@@ -213,22 +213,20 @@
 
         }
 
-        .equipoContainerMain {
+        .equipoContainerMain1, .equipoContainerMain2,.equipoContainerMain3,.equipoContainerMain4,.equipoContainerMain5,.equipoContainerMain6,.equipoContainerMain7{
             position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
             width: 100%;
             height: 300px;
-
-            .equipo {
+            .equipo1, .equipo2, .equipo3, .equipo4, .equipo5, .equipo6, .equipo7{
                 position: relative;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 height: 100%;
                 width: 30%;
-
                 img {
                     height: 75%;
                     transition: .3s ease-in-out;
@@ -238,8 +236,7 @@
                     }
                 }
             }
-
-            .equipoDescription {
+            .equipoDescription1, .equipoDescription2, .equipoDescription3, .equipoDescription4, .equipoDescription5, .equipoDescription6, .equipoDescription7 {
                 position: relative;
                 display: flex;
                 justify-content: center;
@@ -262,12 +259,20 @@
             }
         }
 
+        .lineTitle3 {
+            margin-top: 50px;
+            height: 20px;
+            width: 100%;
+            background: rgb(224,91,25);
+            background: linear-gradient(145deg, rgba(224,91,25,1) 0%, rgba(255,118,38,1) 45%, rgba(255,164,0,1) 100%);
+        }
+
         .containerProducts2 {
             position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 50px;
+            margin-top: 40px;
             height: 225px;
             width: 100%;
             background-color: rgb(255, 164, 0);
@@ -311,6 +316,7 @@
 }
 
 .plataformas{
+    
     .containerPlataformsMain{
         .titleSuscription {
             font-family: 'MontserratExtraBold' !important;
@@ -683,39 +689,53 @@
 @media (max-width:480px) {
     .formFondo {
         position: relative;
-
-        .containerContactanos {
-            background-position-x: right;
-            height: 780px;
+    
+        .containerSoluciones {
+            position: relative;
+            background-image: url(../images/soluciones/fondo.jpg);
+            background-size: cover;
+            height: 650px;
+            width: 100%;
         }
-
-        .formContactanos {
-            height: 600px;
-            width: 90vw;
-            top: 40px;
+    
+        .formSoluciones {
+            position: absolute;
+            height: 630px;
+            width: 90% !important;
+            background-color: rgb(242, 242, 242);
+            border-radius: 25px;
+            overflow: hidden;
+            box-sizing: border-box;
+            margin-bottom: 100px;
+            top: 10px;
             right: 20px;
-
+    
             form {
-
+    
                 .title {
                     height: 110px;
-
+                    width: 100%;
+                    background-color: var(--acilColor);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+    
                     span {
-                        font-size: 1.2em;
+                        font-size: 1.1em;
                     }
                 }
-
+    
                 .containerForm {
                     padding: 10px 40px;
-
+    
                     div {
-                        margin-top: 5px;
-
+                        margin-top: 10px;
+    
                         label {
                             font-family: 'MontserratBold' !important;
-                            font-size: .75em;
+                            font-size: .8em;
                         }
-
+    
                         .inputCamp {
                             margin-top: 5px;
                             width: 100%;
@@ -725,64 +745,645 @@
                             outline: 1px solid white;
                             padding: 8px;
                             transition: .3s ease-in-out;
-
+    
                             &:focus {
                                 transition: .3s ease-in-out;
                                 outline: 1px solid #e25c196e;
                             }
                         }
-
+    
                         .inputFile {
                             display: none;
                         }
-
+    
                         .subirContainer {
                             width: 100%;
-
+                            transition: .3s ease-in-out;
+    
                             img {
                                 height: 65px;
                             }
+    
+                            &:hover {
+                                transform: translateY(-3px);
+                                transition: .3s ease-in-out;
+                            }
                         }
-
+    
                         .pymeResidencial {
-                            margin-top: 20px;
+                            margin-top: 40px;
                             display: flex !important;
                             justify-content: start !important;
                             align-items: center !important;
                             gap: 20px;
-
+    
                             span {
                                 font-family: 'MontserratBold' !important;
-                                font-size: .5em;
+                                font-size: .6em;
                             }
                         }
-
+    
                         .terminosContainer {
                             margin-top: 15px;
+                            margin-bottom: 20px;
                             display: flex !important;
                             justify-content: start !important;
                             align-items: center !important;
                             gap: 20px;
-
+    
                             span {
                                 font-family: 'MontserratBold' !important;
-                                font-size: .5em;
+                                font-size: .6em;
                             }
                         }
-
+    
                         .btnEnviarContainer {
-                            margin-top: 30px;
+                            margin-top: 25px;
                             display: flex;
                             justify-content: center;
                             align-items: center;
-
+                            transition: .3s ease-in-out;
+    
                             img {
                                 width: 300px;
                             }
+    
+                            &:hover {
+                                filter: drop-shadow(3px 3px 7px rgba(255, 166, 0, 0.75));
+                                transition: .3s ease-in-out;
+                            }
                         }
+    
                     }
                 }
             }
+        }
+    }
+    
+    .productos {
+        position: relative;
+        .containerProductsMain {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+    
+            .barraInicio {
+                position: relative;
+                height: 5px;
+                width: 100%;
+                background: rgb(224,91,25);
+                background: linear-gradient(145deg, rgba(224,91,25,1) 0%, rgba(255,118,38,1) 45%, rgba(255,164,0,1) 100%);
+                margin-top: 10px;
+                margin-bottom: 25px;
+            }
+    
+            .titleSuscription {
+                font-family: 'MontserratExtraBold' !important;
+                color: var(--acilColor);
+            }
+    
+            .lineTitle {
+                height: 1px;
+                width: 80vw !important;
+                border: 1px solid var(--acilColor) !important;
+            }
+    
+            .lineTitle2 {
+                height: 20px;
+                width: 100%;
+                background: rgb(224,91,25);
+                background: linear-gradient(145deg, rgba(224,91,25,1) 0%, rgba(255,118,38,1) 45%, rgba(255,164,0,1) 100%);
+            }
+    
+            .containerProducts {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                margin-top: 50px;
+                height: 800px;
+                width: 100%;
+                background-color: var(--acilColor);
+                box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25), -5px -5px 15px rgba(0, 0, 0, 0.25);
+    
+                .containerCard {
+                    margin-top: 30px;
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    height: auto;
+                    width: 135px;
+    
+                    img {
+                        height: 100px;
+                        transition: .3s ease-in-out;
+    
+                        &:hover {
+                            transform: translateY(-3px);
+                            transition: .3s ease-in-out;
+                            filter: drop-shadow(3px 3px 7px rgba(255, 255, 255, 0.3));
+                        }
+                    }
+    
+                    p {
+                        margin-top: 10px;
+                        color: white;
+                        font-family: 'MontserratRegular' !important;
+                        font-size: .75em;
+                    }
+                }
+    
+            }
+    
+            .equipoContainerMain1, .equipoContainerMain2,.equipoContainerMain3,.equipoContainerMain4,.equipoContainerMain5,.equipoContainerMain6,.equipoContainerMain7{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                width: 90%;
+                height: 300px;
+                .equipo1, .equipo2, .equipo3, .equipo4, .equipo5, .equipo6, .equipo7{
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height:100%;
+                    width: 90%;
+                    img {
+                        height: 75%;
+                        transition: .3s ease-in-out;
+                        &:hover{
+                            transform: scale(1.1);
+                            transition: .3s ease-in-out;
+                        }
+                    }
+                }
+                .equipoDescription1, .equipoDescription2, .equipoDescription3, .equipoDescription4, .equipoDescription5, .equipoDescription6, .equipoDescription7 {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    height: 100%;
+                    width: 100%;
+    
+                    h3 {
+                        font-family: 'MontserratExtraBold' !important;
+                        color: var(--acilColor);
+                        font-size: 1.4em;
+                    }
+    
+                    span {
+                        font-family: 'MontserratBold' !important;
+                        font-size: 1em;
+                    }
+    
+                }
+            }
+
+            .equipoContainerMain2, .equipoContainerMain3, .equipoContainerMain4, .equipoContainerMain6, .equipoContainerMain7 {
+               margin-top: 250px;
+            }
+
+            .lineTitle3 {
+                margin-top: 300px;
+                height: 20px;
+                width: 100%;
+                background: rgb(224,91,25);
+                background: linear-gradient(145deg, rgba(224,91,25,1) 0%, rgba(255,118,38,1) 45%, rgba(255,164,0,1) 100%);
+            }
+
+            .titleSuscription2 {
+                font-family: 'MontserratExtraBold' !important;
+                color: var(--acilColor);
+            }
+    
+            .containerProducts2 {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                margin-top: 200px;
+                height: 600px;
+                width: 100%;
+                background-color: rgb(255, 164, 0);
+                box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25), -5px -5px 15px rgba(0, 0, 0, 0.25);
+    
+                .containerCard2 {
+                    margin-top: 10px;
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    height: auto;
+                    width: 150px;
+    
+                    img {
+                        height: 100px;
+                        transition: .3s ease-in-out;
+    
+                        &:hover {
+                            transform: translateY(-3px);
+                            transition: .3s ease-in-out;
+                            filter: drop-shadow(3px 3px 7px rgba(255, 255, 255, 0.3));
+                        }
+                    }
+    
+                    p {
+                        margin-top: 10px;
+                        color: white;
+                        font-family: 'MontserratRegular' !important;
+                        font-size: .65em;
+                    }
+                }
+    
+                .camarasOperacion {
+                    margin-top: 45px;
+                }
+    
+            }
+        }
+    }
+    
+    .plataformas{
+        display: none;
+        margin-top: -20px;
+        .containerPlataformsMain{
+            .titleSuscription {
+                font-family: 'MontserratExtraBold' !important;
+                color: var(--acilColor);
+            }
+    
+            .lineTitle {
+                height: 1px;
+                width: 100% !important;
+                border: 1px solid var(--acilColor) !important;
+            }
+    
+            .containerPlataforms1{
+                position: relative;
+                margin-top: 50px;
+                height: 750px;
+                width: 100%;
+                background-image: url(../images/plataformas/Acil\ Contigo.jpg);
+                background-size: cover;
+        
+                .containerPlataformsTxt1{
+                    display: none;
+                    position: absolute;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    top: 0 !important;
+                    right: 150px;
+                    height: 100%;
+                    width: 50%;
+                    z-index: 1000;
+    
+                    img{
+                        height: 125px;
+                        width: 125px;
+                        filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, .9));
+                        transition: .3s ease-in-out;
+                        &:hover{
+                            transform: translateY(-3px);
+                            transition: .3s ease-in-out;
+                            filter: drop-shadow(5px 5px 7px rgba(255, 255, 255, 0.05));
+                        }
+                    }
+                    h3{
+                        margin-top: 25px;
+                        font-family: 'MontserratExtraBold' !important;
+                        font-size: 4em;
+                        color: rgb(240, 6, 6);
+                    }
+    
+                    .containerPlataformsTxtDescription1{
+                        position: relative;
+                        margin-top: 35px;
+                        width: 80%;
+                        display: none;
+                        p{
+                            font-family: 'MontserratRegular' !important;
+                            font-size: 1.35em;
+                            color: white;
+                        }
+                    }
+    
+                    .apps1{
+                       margin-top: 75px;
+                    }
+                }
+            }
+    
+            .containerPlataforms2{
+                position: relative;
+                margin-top: 225px;
+                height: 750px;
+                width: 100%;
+                background-image: url(../images/plataformas/Acil\ On\ Time.jpg);
+                background-size: cover;
+        
+                .containerPlataformsTxt2{
+                    display: none;
+                    position: absolute;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    left: 150px;
+                    height: 100%;
+                    width: 50%;
+                    z-index: 1000;
+                    
+                    img{
+                        margin-top: -100px;
+                        height: 125px;
+                        width: 125px;
+                        filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, .9));
+                        transition: .3s ease-in-out;
+                        &:hover{
+                            transform: translateY(-3px);
+                            transition: .3s ease-in-out;
+                            filter: drop-shadow(5px 5px 7px rgba(255, 255, 255, 0.05));
+                        }
+                    }
+                    h3{
+                        margin-top: 25px;
+                        font-family: 'MontserratExtraBold' !important;
+                        font-size: 4em;
+                        color: white;
+                    }
+    
+                    .containerPlataformsTxtDescription2{
+                        position: relative;
+                        margin-top: 35px;
+                        width: 80%;
+                        p{
+                            font-family: 'MontserratRegular' !important;
+                            font-size: 1.35em;
+                            color: white;
+                        }
+                    }
+    
+                    .apps2{
+                       margin-top: 75px;
+                    }
+                }
+            }
+    
+            .containerPlataforms3{
+                position: relative;
+                margin-top: 25px;
+                height: 750px;
+                width: 100%;
+                background-image: url(../images/plataformas/Acil\ Clubs.jpg);
+                background-size: cover;
+        
+                .containerPlataformsTxt3{
+                    position: absolute;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    right: 150px;
+                    height: 100%;
+                    width: 50%;
+                    z-index: 1000;
+    
+                    img{
+                        margin-top: -100px;
+                        height: 125px;
+                        width: 125px;
+                        filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, .9));
+                        transition: .3s ease-in-out;
+                        &:hover{
+                            transform: translateY(-3px);
+                            transition: .3s ease-in-out;
+                            filter: drop-shadow(5px 5px 7px rgba(255, 255, 255, 0.05));
+                        }
+                    }
+                    h3{
+                        margin-top: 25px;
+                        font-family: 'MontserratExtraBold' !important;
+                        font-size: 4em;
+                        color: white;
+                    }
+    
+                    .containerPlataformsTxtDescription3{
+                        position: relative;
+                        margin-top: 35px;
+                        width: 80%;
+                        p{
+                            font-family: 'MontserratRegular' !important;
+                            font-size: 1.35em;
+                            color: white;
+                        }
+                    }
+    
+                    .apps3{
+                       margin-top: 75px;
+                    }
+                }
+            }
+        }
+    
+        .masInfo{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 5px;
+            margin-top: 25px;
+            height: 150px;
+            width: 100%;
+            background: rgb(224,91,25);
+            background: linear-gradient(145deg, rgba(224,91,25,1) 0%, rgba(255,118,38,1) 45%, rgba(255,164,0,1) 100%);
+            h3{
+                font-family: 'MontserratExtraBold' !important;
+                font-size: 1.5em;
+                color: white;
+            }
+            img{
+                height: 75px;
+                transition: .3s ease-in-out;
+                &:hover{                
+                    transform: scale(1.1);
+                    transition: .3s ease-in-out;
+                    filter: drop-shadow(3px 3px 7px rgba(255, 255, 255, 0.5));
+                }
+            }
+        }
+    }
+    
+    .etiquetasContainer {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0px;
+        gap: 25px;
+    
+        .etiqueta1 {
+            position: relative;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            width: 100%;
+            height: 225px;
+    
+            .etiqueta1Container {
+                position: relative;
+                height: 100%;
+    
+                img {
+                    height: 100%;
+                }
+    
+                .title1 {
+                    position: absolute;
+                    color: rgb(255, 255, 255);
+                    font-family: 'MontserratBold' !important;
+                    font-size: 1.6em;
+                    top: 5%;
+                    right: 30%;
+                }
+    
+                .etiquetaTextContainer {
+                    position: absolute;
+                    top: 36%;
+                    right: 25%;
+                    width: 42.5%;
+    
+                    p {
+                        color: rgb(255, 255, 255);
+                        font-family: 'MontserratRegular' !important;
+                        font-size: .75em;
+                    }
+                }
+    
+                .etiquetaBtn {
+                    position: absolute;
+                    top: 35%;
+                    right: 2.5%;
+                    height: 70px;
+                }
+            }
+        }
+    
+        .etiqueta2 {
+            position: relative;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            width: 100%;
+            height: 225px;
+    
+            .etiqueta2Container {
+                position: relative;
+                height: 100%;
+    
+                img {
+                    height: 100%;
+                }
+    
+                .title2 {
+                    position: absolute;
+                    color: rgb(255, 255, 255);
+                    font-family: 'MontserratBold' !important;
+                    font-size: 1.6em;
+                    top: 5%;
+                    left: 25%;
+                }
+    
+                .etiquetaTextContainer2 {
+                    position: absolute;
+                    top: 36%;
+                    left: 28%;
+                    width: 42.5%;
+    
+                    p {
+                        color: rgb(255, 255, 255);
+                        font-family: 'MontserratRegular' !important;
+                        font-size: .75em;
+                    }
+                }
+    
+                .etiquetaBtn2 {
+                    position: absolute;
+                    top: 35%;
+                    left: 2.5%;
+                    height: 70px;
+                    rotate: 180deg;
+                }
+            }
+        }
+    
+        .etiqueta3 {
+            position: relative;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            width: 100%;
+            height: 225px;
+    
+            .etiqueta3Container {
+                position: relative;
+                height: 100%;
+    
+                img {
+                    height: 100%;
+                }
+    
+                .title3 {
+                    position: absolute;
+                    color: rgb(255, 255, 255);
+                    font-family: 'MontserratBold' !important;
+                    font-size: 1.2em;
+                    top: 5%;
+                    right: 5%;
+                }
+    
+                .etiquetaTextContainer3 {
+                    position: absolute;
+                    top: 36%;
+                    right: 25%;
+                    width: 40%;
+    
+                    p {
+                        color: rgb(255, 255, 255);
+                        font-family: 'MontserratRegular' !important;
+                        font-size: .75em;
+                    }
+                }
+    
+                .etiquetaBtn3 {
+                    position: absolute;
+                    top: 35%;
+                    right: 2.5%;
+                    height: 70px;
+                }
+            }
+        }
+    
+        .barraEspacio {
+            width: 80%;
+            height: 8px;
+            background: rgb(224, 91, 25);
+            background: linear-gradient(145deg, rgba(224, 91, 25, 1) 0%, rgba(255, 118, 38, 1) 45%, rgba(255, 164, 0, 1) 100%);
+            margin-top: 40px;
+            margin-bottom: 60px;
         }
     }
 }

@@ -41,68 +41,70 @@
         <section>
             <div class="containerApps">
                 <div class="lineTitle"></div>
+
                 <!-- APLICACIONES SECCION 1-->
-                <div class="appsContainer">
-                    <div class="app">
-                        <img src="./images/aplicaciones/Cámaras.svg" alt="Aplicaciones Acil México CCTV">
+                <div class="appsContainer1">
+                    <div class="app1">
+                        <img class="imgApp1" src="./images/aplicaciones/Cámaras.svg" alt="Aplicaciones Acil México CCTV">
                         <span class="text-center apps1">CÁMARAS<br>DE SEGURIDAD</span>
                     </div>
-                    <div class="app">
-                        <img src="./images/aplicaciones/Alarmas.svg" alt="Aplicaciones Acil México CCTV">
+                    <div class="app1">
+                        <img class="imgApp1" src="./images/aplicaciones/Alarmas.svg" alt="Aplicaciones Acil México CCTV">
                         <span class="text-center apps1">ALARMA</span>
                     </div>
-                    <div class="app">
-                        <img src="./images/aplicaciones/Alarma Vecinal.svg" alt="Aplicaciones Acil México CCTV">
+                    <div class="app1">
+                        <img class="imgApp1" src="./images/aplicaciones/Alarma Vecinal.svg" alt="Aplicaciones Acil México CCTV">
                         <span class="text-center apps1">ALARMA<br>VECINAL</span>
                     </div>
-                    <div class="app">
-                        <img src="./images/aplicaciones/Cerradura inteligente.svg" alt="Aplicaciones Acil México CCTV">
+                    <div class="app1">
+                        <img class="imgApp1" src="./images/aplicaciones/Cerradura inteligente.svg" alt="Aplicaciones Acil México CCTV">
                         <span class="text-center apps1">CERRADURA<br>INTELIGENTE</span>
                     </div>
-                    <div class="app">
-                        <img src="./images/aplicaciones/Control de asistencia.svg" alt="Aplicaciones Acil México CCTV">
+                    <div class="app1">
+                        <img class="imgApp1" src="./images/aplicaciones/Control de asistencia.svg" alt="Aplicaciones Acil México CCTV">
                         <span class="text-center apps1">CONTROL DE<br>ASISTENCIA</span>
                     </div>
-                    <div class="app">
-                        <img src="./images/aplicaciones/Control de acceso.svg" alt="Aplicaciones Acil México CCTV">
+                    <div class="app1">
+                        <img class="imgApp1" src="./images/aplicaciones/Control de acceso.svg" alt="Aplicaciones Acil México CCTV">
                         <span class="text-center apps1">CONTROL<br>DE ACCESO</span>
                     </div>
-                    <div class="app">
-                        <img src="./images/aplicaciones/Detector de metales.svg" alt="Aplicaciones Acil México CCTV">
+                    <div class="app1">
+                        <img class="imgApp1" src="./images/aplicaciones/Detector de metales.svg" alt="Aplicaciones Acil México CCTV">
                         <span class="text-center apps1">ARCO DETECTOR<br>DE METALES</span>
                     </div>
-                    <div class="app">
-                        <img src="./images/aplicaciones/Videoportero e interfon.svg" alt="Aplicaciones Acil México CCTV">
+                    <div class="app1">
+                        <img class="imgApp1" src="./images/aplicaciones/Videoportero e interfon.svg" alt="Aplicaciones Acil México CCTV">
                         <span class="text-center apps1">VIDEOPORTERO E INTERFÓN</span>
                     </div>
                 </div>
                 <!-- APLICACIONES SECCION 2-->
-                <div class="appsContainer">
-                    <div class="app">
+                <div class="appsContainer2">
+                    <div class="app2">
                         <img src="./images/aplicaciones/Monitoreo de alarmas.svg" alt="Aplicaciones Acil México CCTV">
                         <span class="text-center apps2">MONITOREO DE ALARMA</span>
                     </div>
-                    <div class="app">
+                    <div class="app2">
                         <img src="./images/aplicaciones/Monitoreo de cámaras en operación.svg" alt="Aplicaciones Acil México CCTV">
                         <span class="text-center apps2">MONITOREO DE CÁMARAS EN OPERACIÓN</span>
                     </div>
-                    <div class="app">
+                    <div class="app2">
                         <img src="./images/aplicaciones/Monitoreo de personal.svg" alt="Aplicaciones Acil México CCTV">
                         <span class="text-center apps2">MONITOREO DE PERSONAL</span>
                     </div>
-                    <div class="app">
+                    <div class="app2">
                         <img src="./images/aplicaciones/ACIL On TIME.svg" alt="Aplicaciones Acil México CCTV">
                         <span class="text-center apps2">ACIL ON TIME</span>
                     </div>
-                    <div class="app">
+                    <div class="app2">
                         <img src="./images/aplicaciones/ACIL CLUBS.svg" alt="Aplicaciones Acil México CCTV">
                         <span class="text-center apps2">ACIL CLUBS</span>
                     </div>
-                    <div class="app">
+                    <div class="app2">
                         <img src="./images/aplicaciones/ACIL CONTIGO.svg" alt="Aplicaciones Acil México CCTV">
                         <span class="text-center apps2">ACIL CONTIGO</span>
                     </div>
                 </div>
+
                 <div class="barraEspacio3"></div>
             </div>
         </section>
@@ -179,7 +181,7 @@
                         <div class="etiquetaTextContainer">
                             <p><strong>Explora el portafolio de servicios de ACIL México y conoce nuestras soluciones innovadoras en seguridad electrónica, diseñadas para tu tranquilidad.</strong></p>
                         </div>
-                        <img class="etiquetaBtn" src="./images/aplicaciones/Botón.svg">
+                        <a href="./nosotros.php"><img class="etiquetaBtn" src="./images/aplicaciones/Botón.svg"></a>
                     </div>
                 </div>
 
@@ -191,7 +193,7 @@
                         <div class="etiquetaTextContainer2">
                             <p><strong>Explora una gama completa de productos y servicios diseñados para diversas aplicaciones desde seguridad residencial hasta protección empresarial.</strong></p>
                         </div>
-                        <img class="etiquetaBtn2" src="./images/aplicaciones/Botón.svg">
+                        <a href="./soluciones.php"><img class="etiquetaBtn2" src="./images/aplicaciones/Botón.svg"></a>
                     </div>
                 </div>
 

@@ -49,16 +49,17 @@
   border: 1px solid var(--acilColor) !important;
   margin-top: 25px;
 }
-.containerApps .appsContainer {
+.containerApps .appsContainer1 {
   position: relative;
   display: flex;
   height: 100px;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 25px;
-  gap: 7px;
+  gap: 15px;
 }
-.containerApps .appsContainer .app {
+.containerApps .appsContainer1 .app1 {
   position: relative;
   height: 100%;
   width: 75px;
@@ -68,26 +69,58 @@
   flex-direction: column;
   transition: 0.3s ease-in-out;
 }
-.containerApps .appsContainer .app img {
+.containerApps .appsContainer1 .app1 .imgApp1 {
   position: absolute;
   height: 75px;
   width: 75px;
   filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.15));
   top: 0;
 }
-.containerApps .appsContainer .app .apps1 {
+.containerApps .appsContainer1 .app1 .apps1 {
   color: var(--acilColor);
   font-family: "MontserratBold" !important;
   font-size: 0.5em !important;
   margin-top: 80px;
 }
-.containerApps .appsContainer .app .apps2 {
+.containerApps .appsContainer1 .app1:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease-in-out;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
+}
+.containerApps .appsContainer2 {
+  position: relative;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  gap: 15px;
+}
+.containerApps .appsContainer2 .app2 {
+  position: relative;
+  height: 100%;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+}
+.containerApps .appsContainer2 .app2 img {
+  position: absolute;
+  height: 75px;
+  width: 75px;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.15));
+  top: 0;
+}
+.containerApps .appsContainer2 .app2 .apps2 {
   color: rgb(245, 162, 20);
   font-family: "MontserratBold" !important;
   font-size: 0.5em !important;
-  margin-top: 80px;
+  margin-top: 80px !important;
 }
-.containerApps .appsContainer .app:hover {
+.containerApps .appsContainer2 .app2:hover {
   transform: translateY(-3px);
   transition: 0.3s ease-in-out;
   filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
@@ -434,4 +467,481 @@
   margin-bottom: 60px;
 }
 
+@media (max-width: 480px) {
+  .casosUsoContainer {
+    background-color: rgb(242, 242, 242);
+  }
+  .casosUsoContainer .startImgContainer {
+    position: relative;
+    height: 200px !important;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+  }
+  .casosUsoContainer .startImgContainer img {
+    height: 100%;
+    width: 100%;
+  }
+  .casosUsoContainer .casosUsoTextContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .casosUsoContainer .casosUsoTextContainer .titleSuscription {
+    font-family: "MontserratExtraBold" !important;
+    color: var(--acilColor);
+  }
+  .casosUsoContainer .casosUsoTextContainer .lineTitle {
+    height: 1px;
+    width: 80vw !important;
+    border: 1px solid var(--acilColor) !important;
+  }
+  .casosUsoContainer .casosUsoTextContainer .containerSubtitle {
+    position: relative;
+    width: 90% !important;
+    margin-top: 20px;
+  }
+  .casosUsoContainer .casosUsoTextContainer .containerSubtitle .subtitle {
+    font-family: "MontserratRegular" !important;
+    font-size: 1em !important;
+  }
+  .casosUsoContainer .barraEspacio2 {
+    margin-top: 25px;
+    height: 10px;
+    background: rgb(224, 91, 25);
+    background: linear-gradient(145deg, rgb(224, 91, 25) 0%, rgb(255, 118, 38) 45%, rgb(255, 164, 0) 100%);
+  }
+  .containerApps {
+    height: 500px;
+  }
+  .containerApps .lineTitle {
+    height: 1px;
+    width: 100% !important;
+    border: 1px solid var(--acilColor) !important;
+    margin-top: 25px;
+  }
+  .containerApps .appsContainer1 {
+    position: relative;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    gap: 15px;
+  }
+  .containerApps .appsContainer1 .app1 {
+    position: relative;
+    height: 100%;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+  }
+  .containerApps .appsContainer1 .app1 .imgApp1 {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.15));
+    top: 0;
+  }
+  .containerApps .appsContainer1 .app1 .apps1 {
+    color: var(--acilColor);
+    font-family: "MontserratBold" !important;
+    font-size: 0.5em !important;
+    margin-top: 80px;
+  }
+  .containerApps .appsContainer1 .app1:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease-in-out;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
+  }
+  .containerApps .appsContainer2 {
+    position: relative;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 140px;
+    gap: 15px;
+  }
+  .containerApps .appsContainer2 .app2 {
+    position: relative;
+    height: 100%;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+  }
+  .containerApps .appsContainer2 .app2 img {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.15));
+    top: 0;
+  }
+  .containerApps .appsContainer2 .app2 .apps2 {
+    color: rgb(245, 162, 20);
+    font-family: "MontserratBold" !important;
+    font-size: 0.5em !important;
+    margin-top: 80px !important;
+  }
+  .containerApps .appsContainer2 .app2:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease-in-out;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
+  }
+  .containerApps .barraEspacio3 {
+    margin-top: 140px;
+    height: 20px;
+    background: rgb(224, 91, 25);
+    background: linear-gradient(145deg, rgb(224, 91, 25) 0%, rgb(255, 118, 38) 45%, rgb(255, 164, 0) 100%);
+  }
+  .edificiosContainerMain {
+    background-color: rgb(242, 242, 242);
+    border: 1px solid rgb(242, 242, 242);
+    margin-top: 20px;
+    height: 800px !important;
+  }
+  .edificiosContainerMain .edificiosContainer {
+    position: relative;
+    height: 500px !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: rgb(242, 242, 242);
+  }
+  .edificiosContainerMain .edificiosContainer .column1 {
+    display: none;
+    position: relative;
+    height: 100%;
+    width: 20%;
+    overflow: hidden;
+    background-image: url(../images/aplicaciones/Casos\ de\ uso\ 1.svg);
+    background-size: cover;
+  }
+  .edificiosContainerMain .edificiosContainer .column1 .flecha {
+    position: absolute;
+    height: 100%;
+    right: 5px;
+    width: 50px;
+  }
+  .edificiosContainerMain .edificiosContainer .column2 {
+    position: relative;
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .edificiosContainerMain .edificiosContainer .column2 span {
+    position: absolute;
+    top: 0;
+    font-family: "MontserratExtraBold" !important;
+    color: var(--acilColor);
+    font-size: 1.5em;
+  }
+  .edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 100%;
+    width: 500px;
+  }
+  .edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .edificio {
+    position: relative;
+    height: 100%;
+  }
+  .edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .camarasDepa {
+    position: absolute;
+    top: 15%;
+    right: 16%;
+    height: 30px;
+    transition: 0.3s ease-in-out;
+  }
+  .edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .camarasDepa:hover {
+    scale: 1.5;
+    transition: 0.3s ease-in-out;
+  }
+  .edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .alarmasDepa {
+    position: absolute;
+    top: 28%;
+    right: 50%;
+    height: 30px;
+    transition: 0.3s ease-in-out;
+  }
+  .edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .alarmasDepa:hover {
+    scale: 1.5;
+    transition: 0.3s ease-in-out;
+  }
+  .edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .cerraduraDepa {
+    position: absolute;
+    top: 68%;
+    right: 30%;
+    height: 30px;
+    transition: 0.3s ease-in-out;
+  }
+  .edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .cerraduraDepa:hover {
+    scale: 1.5;
+    transition: 0.3s ease-in-out;
+  }
+  .edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .videoporteroDepa {
+    position: absolute;
+    top: 60%;
+    right: 18%;
+    height: 30px;
+    transition: 0.3s ease-in-out;
+  }
+  .edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .videoporteroDepa:hover {
+    scale: 1.5;
+    transition: 0.3s ease-in-out;
+  }
+  .edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .camaras2Depa {
+    position: absolute;
+    top: 45%;
+    right: 75%;
+    height: 30px;
+    transition: 0.3s ease-in-out;
+  }
+  .edificiosContainerMain .edificiosContainer .column2 .edificioImgContainer .camaras2Depa:hover {
+    scale: 1.5;
+    transition: 0.3s ease-in-out;
+  }
+  .edificiosContainerMain .edificiosContainer .column3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    width: 100%;
+    margin-top: 5px;
+  }
+  .edificiosContainerMain .edificiosContainer .column3 .cardApp {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 20px;
+    background-color: white;
+  }
+  .edificiosContainerMain .edificiosContainer .column3 .cardApp .title {
+    margin-top: 20px !important;
+    font-family: "MontserratExtraBold" !important;
+    color: var(--acilColor);
+    font-size: 1.3em;
+  }
+  .edificiosContainerMain .edificiosContainer .column3 .cardApp .imgCard {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .edificiosContainerMain .edificiosContainer .column3 .cardApp .imgCard img {
+    height: 65%;
+  }
+  .edificiosContainerMain .edificiosContainer .column3 .cardApp .description {
+    padding: 10px 10px;
+  }
+  .edificiosContainerMain .edificiosContainer .column3 .cardApp .description p {
+    font-family: "MontserratBold" !important;
+    font-size: 0.65em;
+    color: gray;
+  }
+  .edificiosContainerMain .edificiosContainer .column4 {
+    display: none;
+    position: relative;
+    height: 100%;
+    width: 20%;
+    overflow: hidden;
+    background-image: url(../images/aplicaciones/Casos\ de\ uso\ 2.svg);
+    background-size: cover;
+  }
+  .edificiosContainerMain .edificiosContainer .column4 .flecha {
+    position: absolute;
+    height: 100%;
+    left: 5px;
+    width: 50px;
+  }
+  .edificiosContainerMain .selectsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+    gap: 6px;
+    margin-top: -250px;
+  }
+  .edificiosContainerMain .selectsContainer .selectHex {
+    -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+            clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background: rgb(245, 162, 20);
+    width: 14px;
+    height: 16px;
+    rotate: 90deg;
+    transition: 0.3s ease-in-out;
+  }
+  .edificiosContainerMain .selectsContainer .selectHex:hover {
+    background-color: var(--acilColor);
+    transition: 0.3s ease-in-out;
+  }
+  .edificiosContainerMain .barraEspacio3 {
+    height: 20px;
+    background: rgb(224, 91, 25);
+    background: linear-gradient(145deg, rgb(224, 91, 25) 0%, rgb(255, 118, 38) 45%, rgb(255, 164, 0) 100%);
+  }
+  .etiquetasContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 25px;
+  }
+  .etiquetasContainer .etiqueta1 {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 225px;
+  }
+  .etiquetasContainer .etiqueta1 .etiqueta1Container {
+    position: relative;
+    height: 100%;
+  }
+  .etiquetasContainer .etiqueta1 .etiqueta1Container img {
+    height: 100%;
+  }
+  .etiquetasContainer .etiqueta1 .etiqueta1Container .title1 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: "MontserratBold" !important;
+    font-size: 1.6em;
+    top: 5%;
+    right: 30%;
+  }
+  .etiquetasContainer .etiqueta1 .etiqueta1Container .etiquetaTextContainer {
+    position: absolute;
+    top: 36%;
+    right: 25%;
+    width: 42.5%;
+  }
+  .etiquetasContainer .etiqueta1 .etiqueta1Container .etiquetaTextContainer p {
+    color: rgb(255, 255, 255);
+    font-family: "MontserratRegular" !important;
+    font-size: 0.75em;
+  }
+  .etiquetasContainer .etiqueta1 .etiqueta1Container .etiquetaBtn {
+    position: absolute;
+    top: 35%;
+    right: 2.5%;
+    height: 70px;
+  }
+  .etiquetasContainer .etiqueta2 {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 225px;
+  }
+  .etiquetasContainer .etiqueta2 .etiqueta2Container {
+    position: relative;
+    height: 100%;
+  }
+  .etiquetasContainer .etiqueta2 .etiqueta2Container img {
+    height: 100%;
+  }
+  .etiquetasContainer .etiqueta2 .etiqueta2Container .title2 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: "MontserratBold" !important;
+    font-size: 1.6em;
+    top: 5%;
+    left: 25%;
+  }
+  .etiquetasContainer .etiqueta2 .etiqueta2Container .etiquetaTextContainer2 {
+    position: absolute;
+    top: 36%;
+    left: 28%;
+    width: 42.5%;
+  }
+  .etiquetasContainer .etiqueta2 .etiqueta2Container .etiquetaTextContainer2 p {
+    color: rgb(255, 255, 255);
+    font-family: "MontserratRegular" !important;
+    font-size: 0.75em;
+  }
+  .etiquetasContainer .etiqueta2 .etiqueta2Container .etiquetaBtn2 {
+    position: absolute;
+    top: 35%;
+    left: 2.5%;
+    height: 70px;
+    rotate: 180deg;
+  }
+  .etiquetasContainer .etiqueta3 {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 225px;
+  }
+  .etiquetasContainer .etiqueta3 .etiqueta3Container {
+    position: relative;
+    height: 100%;
+  }
+  .etiquetasContainer .etiqueta3 .etiqueta3Container img {
+    height: 100%;
+  }
+  .etiquetasContainer .etiqueta3 .etiqueta3Container .title3 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: "MontserratBold" !important;
+    font-size: 1.2em;
+    top: 5%;
+    right: 5%;
+  }
+  .etiquetasContainer .etiqueta3 .etiqueta3Container .etiquetaTextContainer3 {
+    position: absolute;
+    top: 36%;
+    right: 25%;
+    width: 40%;
+  }
+  .etiquetasContainer .etiqueta3 .etiqueta3Container .etiquetaTextContainer3 p {
+    color: rgb(255, 255, 255);
+    font-family: "MontserratRegular" !important;
+    font-size: 0.75em;
+  }
+  .etiquetasContainer .etiqueta3 .etiqueta3Container .etiquetaBtn3 {
+    position: absolute;
+    top: 35%;
+    right: 2.5%;
+    height: 70px;
+  }
+  .etiquetasContainer .barraEspacio {
+    width: 80%;
+    height: 8px;
+    background: rgb(224, 91, 25);
+    background: linear-gradient(145deg, rgb(224, 91, 25) 0%, rgb(255, 118, 38) 45%, rgb(255, 164, 0) 100%);
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+}
 /*************************** APLICACIONES *******************************//*# sourceMappingURL=aplicaciones.css.map */
